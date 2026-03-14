@@ -125,14 +125,14 @@ class InventoryService:
                 if not cfg.get("activo", False):
                     continue
                 
-                if tipo_p not in cfg["tipos_recomendados"]:
+                if tipo_p not in cfg["builds"]["Base"]["tipos_recomendados"]:
                     continue
                 
                 if slot_str not in cfg["slots_activos"]:
                     continue
                 
-                stats_rec = cfg["stats_recomendados"]["stats"]
-                puntos_rec = cfg["stats_recomendados"]["puntos"]
+                stats_rec = cfg["builds"]["Base"]["stats_recomendados"]["stats"]
+                puntos_rec = cfg["builds"]["Base"]["stats_recomendados"]["puntos"]
                 
                 puntaje_p = puntuar_pieza(pieza, stats_rec, puntos_rec)
                 
@@ -142,7 +142,7 @@ class InventoryService:
                     tipo=tipo_p,
                     slot=slot_str,
                     inventarios=inventarios,
-                    stats_recomendados=cfg["stats_recomendados"]
+                    stats_recomendados=cfg["builds"]["Base"]["stats_recomendados"]
                 )
                 calidad = eval_pieza["calidad"]
                 
@@ -193,14 +193,14 @@ class InventoryService:
                 if not cfg.get("activo", False):
                     continue
                 
-                if tipo_p not in cfg["tipos_recomendados"]:
+                if tipo_p not in cfg["builds"]["Base"]["tipos_recomendados"]:
                     continue
                 
                 if slot_str not in cfg["slots_activos"]:
                     continue
                 
-                stats_rec = cfg["stats_recomendados"]["stats"]
-                puntos_rec = cfg["stats_recomendados"]["puntos"]
+                stats_rec = cfg["builds"]["Base"]["stats_recomendados"]["stats"]
+                puntos_rec = cfg["builds"]["Base"]["stats_recomendados"]["puntos"]
                 
                 num_substats_actuales = sum(1 for i in range(1, 5) if pieza.get(f"Substat{i}", ""))
                 
@@ -217,7 +217,7 @@ class InventoryService:
                         tipo=tipo_p,
                         slot=slot_str,
                         inventarios=inventarios,
-                        stats_recomendados=cfg["stats_recomendados"]
+                        stats_recomendados=cfg["builds"]["Base"]["stats_recomendados"]
                     )
                     calidad_simulada = eval_simulada["calidad"]
                 
@@ -257,12 +257,12 @@ class InventoryService:
     def get_active_reservations(self, inventarios, config, session_state):
         stats_rec = {
             j: {
-                "stats": config[j]["stats_recomendados"]["stats"],
-                "puntos": dict(zip(config[j]["stats_recomendados"]["stats"], config[j]["stats_recomendados"]["puntos"]))
+                "stats": config[j]["builds"]["Base"]["stats_recomendados"]["stats"],
+                "puntos": dict(zip(config[j]["builds"]["Base"]["stats_recomendados"]["stats"], config[j]["builds"]["Base"]["stats_recomendados"]["puntos"]))
             } for j in config
         }
         
-        tipos_rec = {j: config[j]["tipos_recomendados"] for j in config}
+        tipos_rec = {j: config[j]["builds"]["Base"]["tipos_recomendados"] for j in config}
         
         return calcular_reservas_por_jugador(
             inventarios=inventarios,

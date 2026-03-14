@@ -136,12 +136,17 @@ def main():
     )
     
     # 2. Tipos recomendados
-    tipos_actuales = [t for t in config[jugador]["tipos_recomendados"] if t in tipos]
+    if "builds" not in config[jugador]:
+        config[jugador]["builds"] = {"Base": {"tipos_recomendados": [], "stats_recomendados": {"stats": [], "puntos": []}}}
+    
+    build_base = config[jugador]["builds"]["Base"]
+    
+    tipos_actuales = [t for t in build_base.get("tipos_recomendados", []) if t in tipos]
     tipos_seleccionados = st.multiselect("Tipos prioritarios", tipos, default=tipos_actuales)
     
     # 3. Stats recomendados
-    stats_actuales = config[jugador]["stats_recomendados"]["stats"]
-    puntos_actuales = config[jugador]["stats_recomendados"]["puntos"]
+    stats_actuales = build_base.get("stats_recomendados", {}).get("stats", [])
+    puntos_actuales = build_base.get("stats_recomendados", {}).get("puntos", [])
     
     stats_limpios = []
     puntos_limpios = []
@@ -197,8 +202,8 @@ def main():
     
     with col1:
         if st.button("💾 Guardar cambios"):
-            config[jugador]["tipos_recomendados"] = tipos_seleccionados
-            config[jugador]["stats_recomendados"] = {"stats": stats_seleccionados, "puntos": puntos}
+            config[jugador]["builds"]["Base"]["tipos_recomendados"] = tipos_seleccionados
+            config[jugador]["builds"]["Base"]["stats_recomendados"] = {"stats": stats_seleccionados, "puntos": puntos}
             config[jugador]["candidatos_4"] = candidatos_4
     
             player_service.save_overrides(config, get_current_user_id())

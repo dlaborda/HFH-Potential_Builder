@@ -186,10 +186,10 @@ def main():
 
     stats_recomendados = {}
 
-    for jugador, datos in config.items():
-        stats = datos["stats_recomendados"]["stats"]
-        puntos = datos["stats_recomendados"]["puntos"]
-    
+    for jugador, builds in config.items():
+        stats = builds["builds"]["Base"]["stats_recomendados"]["stats"]
+        puntos = builds["builds"]["Base"]["stats_recomendados"]["puntos"]
+
         # reconstruir diccionario requerido por el optimizador
         puntos_dict = dict(zip(stats, puntos))
     
@@ -199,7 +199,7 @@ def main():
         }
 
     tipos_recomendados = {
-        jugador: config[jugador]["tipos_recomendados"]
+        jugador: config[jugador]["builds"]["Base"]["tipos_recomendados"]
         for jugador in config
     }
 

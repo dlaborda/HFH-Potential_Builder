@@ -250,7 +250,7 @@ def save_config_jugadores(config):
         if j in base_config:
             # Detect changes against base
             user_changes = {}
-            for key in ["Equipar", "tipos_recomendados", "stats_recomendados", "candidatos_4"]:
+            for key in ["Equipar", "builds", "candidatos_4"]:
                 if key in merged_conf and merged_conf[key] != base_config[j].get(key):
                     user_changes[key] = merged_conf[key]
             if user_changes:

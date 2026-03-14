@@ -143,7 +143,8 @@ def main():
         # -----------------------------
         # TIPOS RECOMENDADOS
         # -----------------------------
-        tipos_actuales = [t for t in config[jugador]["tipos_recomendados"] if t in tipos]
+        build = config[jugador].get("builds", {}).get("Base", {})
+        tipos_actuales = [t for t in build.get("tipos_recomendados", []) if t in tipos]
 
         tipos_seleccionados = st.multiselect(
             "Tipos prioritarios",
@@ -154,8 +155,8 @@ def main():
         # -----------------------------
         # STATS RECOMENDADOS
         # -----------------------------
-        stats_actuales = config[jugador]["stats_recomendados"]["stats"]
-        puntos_actuales = config[jugador]["stats_recomendados"]["puntos"]
+        stats_actuales = build.get("stats_recomendados", {}).get("stats", [])
+        puntos_actuales = build.get("stats_recomendados", {}).get("puntos", [])
 
         # Limpiar stats inválidos
         stats_limpios = []

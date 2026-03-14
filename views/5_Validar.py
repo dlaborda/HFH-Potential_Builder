@@ -32,18 +32,18 @@ def main():
     # -----------------------------
     stats_recomendados = {
         jugador: {
-            "stats": config[jugador]["stats_recomendados"]["stats"],
+            "stats": config[jugador]["builds"]["Base"]["stats_recomendados"]["stats"],
             "puntos": dict(zip(
-                config[jugador]["stats_recomendados"]["stats"],
-                config[jugador]["stats_recomendados"]["puntos"]
+                config[jugador]["builds"]["Base"]["stats_recomendados"]["stats"],
+                config[jugador]["builds"]["Base"]["stats_recomendados"]["puntos"]
             ))
         }
-        for jugador in config
+        for jugador in config if "builds" in config[jugador]
     }
 
     tipos_recomendados = {
-        jugador: config[jugador]["tipos_recomendados"]
-        for jugador in config
+        jugador: config[jugador]["builds"]["Base"]["tipos_recomendados"]
+        for jugador in config if "builds" in config[jugador]
     }
 
     # -----------------------------

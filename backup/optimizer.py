@@ -1113,7 +1113,7 @@ def clasificar_potencial(pieza, slot_str, reservas, config_jugadores, inventario
             continue
 
         # B) Deben usar este tipo
-        if tipo_p not in cfg["tipos_recomendados"]:
+        if tipo_p not in cfg["builds"]["Base"]["tipos_recomendados"]:
             continue
 
         # C) Deben usar este slot
@@ -1167,8 +1167,8 @@ def clasificar_potencial(pieza, slot_str, reservas, config_jugadores, inventario
 
         cfg = config_jugadores[jugador]
 
-        stats_rec = cfg["stats_recomendados"]["stats"]
-        puntos_rec = cfg["stats_recomendados"]["puntos"]
+        stats_rec = cfg["builds"]["Base"]["stats_recomendados"]["stats"]
+        puntos_rec = cfg["builds"]["Base"]["stats_recomendados"]["puntos"]
 
         puntaje_p = puntuar_pieza(pieza, stats_rec, puntos_rec)
 
@@ -1184,7 +1184,7 @@ def clasificar_potencial(pieza, slot_str, reservas, config_jugadores, inventario
             tipo=tipo_p,
             slot=slot_str,
             inventarios=inventarios,
-            stats_recomendados=cfg["stats_recomendados"]
+            stats_recomendados=cfg["builds"]["Base"]["stats_recomendados"]
         )
         calidad = eval_pieza["calidad"]
 

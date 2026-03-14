@@ -2,26 +2,6 @@
     "SSR Ojiro": {
         "Equipar": true,
         "activo": true,
-        "tipos_recomendados": [
-            "Opt. de estado",
-            "Incremento de poder",
-            "Poder vibrante",
-            "Potenciación de la moral"
-        ],
-        "stats_recomendados": {
-            "stats": [
-                "Ataque poderoso",
-                "Percepción",
-                "Fuerza",
-                "Técnica ofensiva"
-            ],
-            "puntos": [
-                3,
-                2,
-                2,
-                1
-            ]
-        },
         "candidatos_4": [
             "Opt. de estado"
         ],
@@ -36,31 +16,35 @@
         "imagen": "SSR Ojiro.png",
         "escuela": "Inarizaki",
         "rareza": "SSR",
-        "rol": "WS"
+        "rol": "WS",
+        "builds": {
+            "Base": {
+                "tipos_recomendados": [
+                    "Opt. de estado",
+                    "Incremento de poder",
+                    "Poder vibrante",
+                    "Potenciación de la moral"
+                ],
+                "stats_recomendados": {
+                    "stats": [
+                        "Ataque poderoso",
+                        "Percepción",
+                        "Fuerza",
+                        "Técnica ofensiva"
+                    ],
+                    "puntos": [
+                        3,
+                        2,
+                        2,
+                        1
+                    ]
+                }
+            }
+        }
     },
     "SSR Akagi": {
         "Equipar": true,
         "activo": true,
-        "tipos_recomendados": [
-            "Recepción de asistencia",
-            "Recepción suprema"
-        ],
-        "stats_recomendados": {
-            "stats": [
-                "Reflejos",
-                "Espíritu",
-                "Recepción",
-                "Técnica defensiva",
-                "Colocación"
-            ],
-            "puntos": [
-                3,
-                2,
-                1,
-                1,
-                1
-            ]
-        },
         "candidatos_4": [
             "Recepción de asistencia"
         ],
@@ -75,30 +59,35 @@
         "imagen": "SSR Akagi.png",
         "escuela": "Inarizaki",
         "rareza": "SSR",
-        "rol": "Li"
+        "rol": "Li",
+        "builds": {
+            "Base": {
+                "tipos_recomendados": [
+                    "Recepción de asistencia",
+                    "Recepción suprema"
+                ],
+                "stats_recomendados": {
+                    "stats": [
+                        "Reflejos",
+                        "Espíritu",
+                        "Recepción",
+                        "Técnica defensiva",
+                        "Colocación"
+                    ],
+                    "puntos": [
+                        3,
+                        2,
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            }
+        }
     },
     "UR Atsumu": {
         "Equipar": true,
         "activo": true,
-        "tipos_recomendados": [
-            "Saque preciso",
-            "Pase preciso",
-            "Finta de colocador"
-        ],
-        "stats_recomendados": {
-            "stats": [
-                "Saque",
-                "Colocación",
-                "Técnica ofensiva",
-                "Percepción"
-            ],
-            "puntos": [
-                3,
-                3,
-                2,
-                1
-            ]
-        },
         "candidatos_4": [
             "Saque preciso"
         ],
@@ -113,33 +102,34 @@
         "imagen": "UR Atsumu.png",
         "escuela": "Inarizaki",
         "rareza": "UR",
-        "rol": "S"
+        "rol": "S",
+        "builds": {
+            "Base": {
+                "tipos_recomendados": [
+                    "Saque preciso",
+                    "Pase preciso",
+                    "Finta de colocador"
+                ],
+                "stats_recomendados": {
+                    "stats": [
+                        "Saque",
+                        "Colocación",
+                        "Técnica ofensiva",
+                        "Percepción"
+                    ],
+                    "puntos": [
+                        3,
+                        3,
+                        2,
+                        1
+                    ]
+                }
+            }
+        }
     },
     "SP Hinata": {
         "Equipar": true,
         "activo": true,
-        "tipos_recomendados": [
-            "Ataque veloz",
-            "Sentido agudo"
-        ],
-        "stats_recomendados": {
-            "stats": [
-                "Ataque rápido",
-                "Percepción",
-                "Fuerza",
-                "Reflejos",
-                "Espíritu",
-                "Técnica ofensiva"
-            ],
-            "puntos": [
-                3,
-                2,
-                2,
-                1,
-                1,
-                1
-            ]
-        },
         "candidatos_4": [
             "Ataque veloz"
         ],
@@ -154,32 +144,37 @@
         "imagen": "SP Hinata.png",
         "escuela": "Karasuno",
         "rareza": "SP",
-        "rol": "MB"
+        "rol": "MB",
+        "builds": {
+            "Base": {
+                "tipos_recomendados": [
+                    "Ataque veloz",
+                    "Sentido agudo"
+                ],
+                "stats_recomendados": {
+                    "stats": [
+                        "Ataque rápido",
+                        "Percepción",
+                        "Fuerza",
+                        "Reflejos",
+                        "Espíritu",
+                        "Técnica ofensiva"
+                    ],
+                    "puntos": [
+                        3,
+                        2,
+                        2,
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            }
+        }
     },
     "UR Hirugami": {
         "Equipar": true,
         "activo": true,
-        "tipos_recomendados": [
-            "Guardia contundente",
-            "Bloque preciso",
-            "Movimiento de bloqueo"
-        ],
-        "stats_recomendados": {
-            "stats": [
-                "Bloqueo",
-                "Reflejos",
-                "Técnica defensiva",
-                "Espíritu",
-                "Percepción"
-            ],
-            "puntos": [
-                3,
-                3,
-                2,
-                1,
-                1
-            ]
-        },
         "candidatos_4": [
             "Guardia contundente",
             "Bloque preciso"
@@ -195,33 +190,36 @@
         "imagen": "UR Hirugami.png",
         "escuela": "Kamomedai",
         "rareza": "UR",
-        "rol": "MB"
+        "rol": "MB",
+        "builds": {
+            "Base": {
+                "tipos_recomendados": [
+                    "Guardia contundente",
+                    "Bloque preciso",
+                    "Movimiento de bloqueo"
+                ],
+                "stats_recomendados": {
+                    "stats": [
+                        "Bloqueo",
+                        "Reflejos",
+                        "Técnica defensiva",
+                        "Espíritu",
+                        "Percepción"
+                    ],
+                    "puntos": [
+                        3,
+                        3,
+                        2,
+                        1,
+                        1
+                    ]
+                }
+            }
+        }
     },
     "UR Hoshiumi": {
         "Equipar": true,
         "activo": true,
-        "tipos_recomendados": [
-            "Poder vibrante",
-            "Incremento de poder",
-            "Potenciación de la moral",
-            "Opt. de estado"
-        ],
-        "stats_recomendados": {
-            "stats": [
-                "Ataque poderoso",
-                "Percepción",
-                "Fuerza",
-                "Técnica ofensiva",
-                "Recepción"
-            ],
-            "puntos": [
-                4,
-                3,
-                3,
-                2,
-                1
-            ]
-        },
         "candidatos_4": [
             "Poder vibrante",
             "Opt. de estado"
@@ -237,31 +235,37 @@
         "imagen": "UR Hoshiumi.png",
         "escuela": "Kamomedai",
         "rareza": "UR",
-        "rol": "WS"
+        "rol": "WS",
+        "builds": {
+            "Base": {
+                "tipos_recomendados": [
+                    "Poder vibrante",
+                    "Incremento de poder",
+                    "Potenciación de la moral",
+                    "Opt. de estado"
+                ],
+                "stats_recomendados": {
+                    "stats": [
+                        "Ataque poderoso",
+                        "Percepción",
+                        "Fuerza",
+                        "Técnica ofensiva",
+                        "Recepción"
+                    ],
+                    "puntos": [
+                        4,
+                        3,
+                        3,
+                        2,
+                        1
+                    ]
+                }
+            }
+        }
     },
     "SSR Iwaizumi": {
         "Equipar": true,
         "activo": true,
-        "tipos_recomendados": [
-            "Poder vibrante",
-            "Incremento de poder",
-            "Potenciación de la moral",
-            "Opt. de estado"
-        ],
-        "stats_recomendados": {
-            "stats": [
-                "Ataque poderoso",
-                "Percepción",
-                "Fuerza",
-                "Técnica ofensiva"
-            ],
-            "puntos": [
-                3,
-                2,
-                2,
-                1
-            ]
-        },
         "candidatos_4": [
             "Poder vibrante"
         ],
@@ -276,30 +280,35 @@
         "imagen": "SSR Iwaizumi.png",
         "escuela": "Aoba Josai",
         "rareza": "SSR",
-        "rol": "WS"
+        "rol": "WS",
+        "builds": {
+            "Base": {
+                "tipos_recomendados": [
+                    "Poder vibrante",
+                    "Incremento de poder",
+                    "Potenciación de la moral",
+                    "Opt. de estado"
+                ],
+                "stats_recomendados": {
+                    "stats": [
+                        "Ataque poderoso",
+                        "Percepción",
+                        "Fuerza",
+                        "Técnica ofensiva"
+                    ],
+                    "puntos": [
+                        3,
+                        2,
+                        2,
+                        1
+                    ]
+                }
+            }
+        }
     },
     "SP Kenma": {
         "Equipar": true,
         "activo": true,
-        "tipos_recomendados": [
-            "Saque preciso",
-            "Pase preciso",
-            "Finta de colocador"
-        ],
-        "stats_recomendados": {
-            "stats": [
-                "Colocación",
-                "Técnica ofensiva",
-                "Reflejos",
-                "Espíritu"
-            ],
-            "puntos": [
-                3,
-                2,
-                1,
-                1
-            ]
-        },
         "candidatos_4": [
             "Pase preciso"
         ],
@@ -314,29 +323,34 @@
         "imagen": "SP Kenma.png",
         "escuela": "Nekoma",
         "rareza": "SP",
-        "rol": "S"
+        "rol": "S",
+        "builds": {
+            "Base": {
+                "tipos_recomendados": [
+                    "Saque preciso",
+                    "Pase preciso",
+                    "Finta de colocador"
+                ],
+                "stats_recomendados": {
+                    "stats": [
+                        "Colocación",
+                        "Técnica ofensiva",
+                        "Reflejos",
+                        "Espíritu"
+                    ],
+                    "puntos": [
+                        3,
+                        2,
+                        1,
+                        1
+                    ]
+                }
+            }
+        }
     },
     "SSR Kita": {
         "Equipar": true,
         "activo": true,
-        "tipos_recomendados": [
-            "Recepción de asistencia",
-            "Recepción suprema"
-        ],
-        "stats_recomendados": {
-            "stats": [
-                "Recepción",
-                "Reflejos",
-                "Técnica defensiva",
-                "Espíritu"
-            ],
-            "puntos": [
-                3,
-                3,
-                2,
-                1
-            ]
-        },
         "candidatos_4": [
             "Recepción de asistencia"
         ],
@@ -351,32 +365,33 @@
         "imagen": "SSR Kita.png",
         "escuela": "Inarizaki",
         "rareza": "SSR",
-        "rol": "WS"
+        "rol": "WS",
+        "builds": {
+            "Base": {
+                "tipos_recomendados": [
+                    "Recepción de asistencia",
+                    "Recepción suprema"
+                ],
+                "stats_recomendados": {
+                    "stats": [
+                        "Recepción",
+                        "Reflejos",
+                        "Técnica defensiva",
+                        "Espíritu"
+                    ],
+                    "puntos": [
+                        3,
+                        3,
+                        2,
+                        1
+                    ]
+                }
+            }
+        }
     },
     "UR Komori": {
         "Equipar": true,
         "activo": true,
-        "tipos_recomendados": [
-            "Guardia contundente",
-            "Recepción de asistencia",
-            "Recepción suprema"
-        ],
-        "stats_recomendados": {
-            "stats": [
-                "Recepción",
-                "Reflejos",
-                "Espíritu",
-                "Colocación",
-                "Técnica defensiva"
-            ],
-            "puntos": [
-                3,
-                3,
-                2,
-                1,
-                1
-            ]
-        },
         "candidatos_4": [
             "Recepción de asistencia"
         ],
@@ -391,31 +406,36 @@
         "imagen": "UR Komori.png",
         "escuela": "Itachiyama",
         "rareza": "UR",
-        "rol": "Li"
+        "rol": "Li",
+        "builds": {
+            "Base": {
+                "tipos_recomendados": [
+                    "Guardia contundente",
+                    "Recepción de asistencia",
+                    "Recepción suprema"
+                ],
+                "stats_recomendados": {
+                    "stats": [
+                        "Recepción",
+                        "Reflejos",
+                        "Espíritu",
+                        "Colocación",
+                        "Técnica defensiva"
+                    ],
+                    "puntos": [
+                        3,
+                        3,
+                        2,
+                        1,
+                        1
+                    ]
+                }
+            }
+        }
     },
     "UR Kuroo": {
         "Equipar": true,
         "activo": true,
-        "tipos_recomendados": [
-            "Bloque preciso",
-            "Movimiento de bloqueo"
-        ],
-        "stats_recomendados": {
-            "stats": [
-                "Bloqueo",
-                "Reflejos",
-                "Técnica defensiva",
-                "Espíritu",
-                "Ataque rápido"
-            ],
-            "puntos": [
-                3,
-                3,
-                2,
-                1,
-                1
-            ]
-        },
         "candidatos_4": [
             "Bloque preciso"
         ],
@@ -430,31 +450,35 @@
         "imagen": "UR Kuroo.png",
         "escuela": "Nekoma",
         "rareza": "UR",
-        "rol": "MB"
+        "rol": "MB",
+        "builds": {
+            "Base": {
+                "tipos_recomendados": [
+                    "Bloque preciso",
+                    "Movimiento de bloqueo"
+                ],
+                "stats_recomendados": {
+                    "stats": [
+                        "Bloqueo",
+                        "Reflejos",
+                        "Técnica defensiva",
+                        "Espíritu",
+                        "Ataque rápido"
+                    ],
+                    "puntos": [
+                        3,
+                        3,
+                        2,
+                        1,
+                        1
+                    ]
+                }
+            }
+        }
     },
     "SSR Kyotani": {
         "Equipar": true,
         "activo": true,
-        "tipos_recomendados": [
-            "Poder vibrante",
-            "Incremento de poder",
-            "Potenciación de la moral",
-            "Opt. de estado"
-        ],
-        "stats_recomendados": {
-            "stats": [
-                "Ataque poderoso",
-                "Percepción",
-                "Fuerza",
-                "Técnica ofensiva"
-            ],
-            "puntos": [
-                3,
-                2,
-                2,
-                1
-            ]
-        },
         "candidatos_4": [
             "Poder vibrante"
         ],
@@ -469,32 +493,35 @@
         "imagen": "SSR Kyotani.png",
         "escuela": "Aoba Josai",
         "rareza": "SSR",
-        "rol": "OP"
+        "rol": "OP",
+        "builds": {
+            "Base": {
+                "tipos_recomendados": [
+                    "Poder vibrante",
+                    "Incremento de poder",
+                    "Potenciación de la moral",
+                    "Opt. de estado"
+                ],
+                "stats_recomendados": {
+                    "stats": [
+                        "Ataque poderoso",
+                        "Percepción",
+                        "Fuerza",
+                        "Técnica ofensiva"
+                    ],
+                    "puntos": [
+                        3,
+                        2,
+                        2,
+                        1
+                    ]
+                }
+            }
+        }
     },
     "SP Nishinoya": {
         "Equipar": true,
         "activo": true,
-        "tipos_recomendados": [
-            "Recepción de asistencia",
-            "Recepción suprema",
-            "Guardia contundente"
-        ],
-        "stats_recomendados": {
-            "stats": [
-                "Recepción",
-                "Reflejos",
-                "Espíritu",
-                "Técnica defensiva",
-                "Colocación"
-            ],
-            "puntos": [
-                3,
-                2,
-                2,
-                2,
-                1
-            ]
-        },
         "candidatos_4": [
             "Recepción de asistencia",
             "Guardia contundente"
@@ -510,32 +537,36 @@
         "imagen": "SP Nishinoya.png",
         "escuela": "Karasuno",
         "rareza": "SP",
-        "rol": "Li"
+        "rol": "Li",
+        "builds": {
+            "Base": {
+                "tipos_recomendados": [
+                    "Recepción de asistencia",
+                    "Recepción suprema",
+                    "Guardia contundente"
+                ],
+                "stats_recomendados": {
+                    "stats": [
+                        "Recepción",
+                        "Reflejos",
+                        "Espíritu",
+                        "Técnica defensiva",
+                        "Colocación"
+                    ],
+                    "puntos": [
+                        3,
+                        2,
+                        2,
+                        2,
+                        1
+                    ]
+                }
+            }
+        }
     },
     "UR Oikawa": {
         "Equipar": true,
         "activo": true,
-        "tipos_recomendados": [
-            "Saque preciso",
-            "Pase preciso",
-            "Finta de colocador"
-        ],
-        "stats_recomendados": {
-            "stats": [
-                "Saque",
-                "Fuerza",
-                "Colocación",
-                "Percepción",
-                "Técnica ofensiva"
-            ],
-            "puntos": [
-                4,
-                3,
-                2,
-                2,
-                1
-            ]
-        },
         "candidatos_4": [
             "Saque preciso"
         ],
@@ -550,27 +581,36 @@
         "imagen": "UR Oikawa.png",
         "escuela": "Aoba Josai",
         "rareza": "UR",
-        "rol": "S"
+        "rol": "S",
+        "builds": {
+            "Base": {
+                "tipos_recomendados": [
+                    "Saque preciso",
+                    "Pase preciso",
+                    "Finta de colocador"
+                ],
+                "stats_recomendados": {
+                    "stats": [
+                        "Saque",
+                        "Fuerza",
+                        "Colocación",
+                        "Percepción",
+                        "Técnica ofensiva"
+                    ],
+                    "puntos": [
+                        4,
+                        3,
+                        2,
+                        2,
+                        1
+                    ]
+                }
+            }
+        }
     },
     "UR Osamu": {
         "Equipar": true,
         "activo": true,
-        "tipos_recomendados": [
-            "Ataque veloz",
-            "Sentido agudo"
-        ],
-        "stats_recomendados": {
-            "stats": [
-                "Ataque rápido",
-                "Técnica ofensiva",
-                "Percepción"
-            ],
-            "puntos": [
-                3,
-                2,
-                1
-            ]
-        },
         "candidatos_4": [
             "Ataque veloz"
         ],
@@ -585,33 +625,31 @@
         "imagen": "UR Osamu.png",
         "escuela": "Inarizaki",
         "rareza": "UR",
-        "rol": "OP"
+        "rol": "OP",
+        "builds": {
+            "Base": {
+                "tipos_recomendados": [
+                    "Ataque veloz",
+                    "Sentido agudo"
+                ],
+                "stats_recomendados": {
+                    "stats": [
+                        "Ataque rápido",
+                        "Técnica ofensiva",
+                        "Percepción"
+                    ],
+                    "puntos": [
+                        3,
+                        2,
+                        1
+                    ]
+                }
+            }
+        }
     },
     "UR Sakusa": {
         "Equipar": true,
         "activo": true,
-        "tipos_recomendados": [
-            "Poder vibrante",
-            "Opt. de estado",
-            "Incremento de poder",
-            "Potenciación de la moral"
-        ],
-        "stats_recomendados": {
-            "stats": [
-                "Ataque poderoso",
-                "Técnica ofensiva",
-                "Percepción",
-                "Fuerza",
-                "Reflejos"
-            ],
-            "puntos": [
-                3,
-                2,
-                2,
-                2,
-                1
-            ]
-        },
         "candidatos_4": [
             "Poder vibrante",
             "Opt. de estado"
@@ -627,30 +665,37 @@
         "imagen": "UR Sakusa.png",
         "escuela": "Itachiyama",
         "rareza": "UR",
-        "rol": "WS"
+        "rol": "WS",
+        "builds": {
+            "Base": {
+                "tipos_recomendados": [
+                    "Poder vibrante",
+                    "Opt. de estado",
+                    "Incremento de poder",
+                    "Potenciación de la moral"
+                ],
+                "stats_recomendados": {
+                    "stats": [
+                        "Ataque poderoso",
+                        "Técnica ofensiva",
+                        "Percepción",
+                        "Fuerza",
+                        "Reflejos"
+                    ],
+                    "puntos": [
+                        3,
+                        2,
+                        2,
+                        2,
+                        1
+                    ]
+                }
+            }
+        }
     },
     "SR Sugawara": {
         "Equipar": true,
         "activo": true,
-        "tipos_recomendados": [
-            "Saque preciso",
-            "Pase preciso",
-            "Finta de colocador"
-        ],
-        "stats_recomendados": {
-            "stats": [
-                "Saque",
-                "Colocación",
-                "Percepción",
-                "Técnica ofensiva"
-            ],
-            "puntos": [
-                4,
-                3,
-                2,
-                1
-            ]
-        },
         "candidatos_4": [
             "Pase preciso",
             "Saque preciso"
@@ -666,34 +711,34 @@
         "imagen": "SR Sugawara.png",
         "escuela": "Karasuno",
         "rareza": "SR",
-        "rol": "S"
+        "rol": "S",
+        "builds": {
+            "Base": {
+                "tipos_recomendados": [
+                    "Saque preciso",
+                    "Pase preciso",
+                    "Finta de colocador"
+                ],
+                "stats_recomendados": {
+                    "stats": [
+                        "Saque",
+                        "Colocación",
+                        "Percepción",
+                        "Técnica ofensiva"
+                    ],
+                    "puntos": [
+                        4,
+                        3,
+                        2,
+                        1
+                    ]
+                }
+            }
+        }
     },
     "SSR Suna": {
         "Equipar": true,
         "activo": true,
-        "tipos_recomendados": [
-            "Bloque preciso",
-            "Ataque veloz",
-            "Sentido agudo"
-        ],
-        "stats_recomendados": {
-            "stats": [
-                "Bloqueo",
-                "Ataque rápido",
-                "Reflejos",
-                "Espíritu",
-                "Técnica defensiva",
-                "Técnica ofensiva"
-            ],
-            "puntos": [
-                3,
-                2,
-                2,
-                1,
-                1,
-                1
-            ]
-        },
         "candidatos_4": [
             "Bloque preciso"
         ],
@@ -708,29 +753,38 @@
         "imagen": "SSR Suna.png",
         "escuela": "Inarizaki",
         "rareza": "SSR",
-        "rol": "MB"
+        "rol": "MB",
+        "builds": {
+            "Base": {
+                "tipos_recomendados": [
+                    "Bloque preciso",
+                    "Ataque veloz",
+                    "Sentido agudo"
+                ],
+                "stats_recomendados": {
+                    "stats": [
+                        "Bloqueo",
+                        "Ataque rápido",
+                        "Reflejos",
+                        "Espíritu",
+                        "Técnica defensiva",
+                        "Técnica ofensiva"
+                    ],
+                    "puntos": [
+                        3,
+                        2,
+                        2,
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            }
+        }
     },
     "SSR Tsukishima": {
         "Equipar": true,
         "activo": true,
-        "tipos_recomendados": [
-            "Bloque preciso",
-            "Movimiento de bloqueo"
-        ],
-        "stats_recomendados": {
-            "stats": [
-                "Bloqueo",
-                "Reflejos",
-                "Técnica defensiva",
-                "Espíritu"
-            ],
-            "puntos": [
-                3,
-                2,
-                1,
-                1
-            ]
-        },
         "candidatos_4": [
             "Bloque preciso"
         ],
@@ -745,34 +799,33 @@
         "imagen": "SSR Tsukishima.png",
         "escuela": "Karasuno",
         "rareza": "SSR",
-        "rol": "MB"
+        "rol": "MB",
+        "builds": {
+            "Base": {
+                "tipos_recomendados": [
+                    "Bloque preciso",
+                    "Movimiento de bloqueo"
+                ],
+                "stats_recomendados": {
+                    "stats": [
+                        "Bloqueo",
+                        "Reflejos",
+                        "Técnica defensiva",
+                        "Espíritu"
+                    ],
+                    "puntos": [
+                        3,
+                        2,
+                        1,
+                        1
+                    ]
+                }
+            }
+        }
     },
     "SR Yamamoto": {
         "Equipar": true,
         "activo": true,
-        "tipos_recomendados": [
-            "Poder vibrante",
-            "Incremento de poder",
-            "Potenciación de la moral",
-            "Opt. de estado",
-            "Recepción de asistencia"
-        ],
-        "stats_recomendados": {
-            "stats": [
-                "Ataque poderoso",
-                "Percepción",
-                "Fuerza",
-                "Recepción",
-                "Técnica ofensiva"
-            ],
-            "puntos": [
-                3,
-                2,
-                2,
-                1,
-                1
-            ]
-        },
         "candidatos_4": [
             "Recepción de asistencia"
         ],
@@ -787,31 +840,38 @@
         "imagen": "SR Yamamoto.png",
         "escuela": "Nekoma",
         "rareza": "SR",
-        "rol": "WS"
+        "rol": "WS",
+        "builds": {
+            "Base": {
+                "tipos_recomendados": [
+                    "Poder vibrante",
+                    "Incremento de poder",
+                    "Potenciación de la moral",
+                    "Opt. de estado",
+                    "Recepción de asistencia"
+                ],
+                "stats_recomendados": {
+                    "stats": [
+                        "Ataque poderoso",
+                        "Percepción",
+                        "Fuerza",
+                        "Recepción",
+                        "Técnica ofensiva"
+                    ],
+                    "puntos": [
+                        3,
+                        2,
+                        2,
+                        1,
+                        1
+                    ]
+                }
+            }
+        }
     },
     "SSR Tanaka": {
         "Equipar": true,
         "activo": true,
-        "tipos_recomendados": [
-            "Poder vibrante",
-            "Incremento de poder",
-            "Potenciación de la moral",
-            "Opt. de estado"
-        ],
-        "stats_recomendados": {
-            "stats": [
-                "Ataque poderoso",
-                "Percepción",
-                "Fuerza",
-                "Técnica ofensiva"
-            ],
-            "puntos": [
-                3,
-                2,
-                2,
-                1
-            ]
-        },
         "candidatos_4": [
             "Poder vibrante"
         ],
@@ -826,32 +886,35 @@
         "imagen": "SSR Tanaka.png",
         "escuela": "Karasuno",
         "rareza": "SSR",
-        "rol": "WS"
+        "rol": "WS",
+        "builds": {
+            "Base": {
+                "tipos_recomendados": [
+                    "Poder vibrante",
+                    "Incremento de poder",
+                    "Potenciación de la moral",
+                    "Opt. de estado"
+                ],
+                "stats_recomendados": {
+                    "stats": [
+                        "Ataque poderoso",
+                        "Percepción",
+                        "Fuerza",
+                        "Técnica ofensiva"
+                    ],
+                    "puntos": [
+                        3,
+                        2,
+                        2,
+                        1
+                    ]
+                }
+            }
+        }
     },
     "SP Sugawara": {
         "Equipar": true,
         "activo": true,
-        "tipos_recomendados": [
-            "Pase preciso",
-            "Saque preciso",
-            "Finta de colocador"
-        ],
-        "stats_recomendados": {
-            "stats": [
-                "Colocación",
-                "Fuerza",
-                "Percepción",
-                "Técnica ofensiva",
-                "Bloqueo"
-            ],
-            "puntos": [
-                4,
-                3,
-                2,
-                1,
-                1
-            ]
-        },
         "candidatos_4": [
             "Pase preciso"
         ],
@@ -866,33 +929,36 @@
         "imagen": "SP Sugawara.png",
         "escuela": "Karasuno",
         "rareza": "SP",
-        "rol": "S"
+        "rol": "S",
+        "builds": {
+            "Base": {
+                "tipos_recomendados": [
+                    "Pase preciso",
+                    "Saque preciso",
+                    "Finta de colocador"
+                ],
+                "stats_recomendados": {
+                    "stats": [
+                        "Colocación",
+                        "Fuerza",
+                        "Percepción",
+                        "Técnica ofensiva",
+                        "Bloqueo"
+                    ],
+                    "puntos": [
+                        4,
+                        3,
+                        2,
+                        1,
+                        1
+                    ]
+                }
+            }
+        }
     },
     "SP Bokuto": {
         "Equipar": true,
         "activo": true,
-        "tipos_recomendados": [
-            "Potenciación de la moral",
-            "Poder vibrante",
-            "Opt. de estado",
-            "Incremento de poder"
-        ],
-        "stats_recomendados": {
-            "stats": [
-                "Fuerza",
-                "Ataque poderoso",
-                "Percepción",
-                "Técnica ofensiva",
-                "Reflejos"
-            ],
-            "puntos": [
-                4,
-                3,
-                2,
-                2,
-                1
-            ]
-        },
         "candidatos_4": [
             "Potenciación de la moral"
         ],
@@ -907,32 +973,37 @@
         "imagen": "SP Bokuto.png",
         "escuela": "Fukurodani",
         "rareza": "SP",
-        "rol": "WS"
+        "rol": "WS",
+        "builds": {
+            "Base": {
+                "tipos_recomendados": [
+                    "Potenciación de la moral",
+                    "Poder vibrante",
+                    "Opt. de estado",
+                    "Incremento de poder"
+                ],
+                "stats_recomendados": {
+                    "stats": [
+                        "Fuerza",
+                        "Ataque poderoso",
+                        "Percepción",
+                        "Técnica ofensiva",
+                        "Reflejos"
+                    ],
+                    "puntos": [
+                        4,
+                        3,
+                        2,
+                        2,
+                        1
+                    ]
+                }
+            }
+        }
     },
     "SP Akaashi": {
         "Equipar": true,
         "activo": true,
-        "tipos_recomendados": [
-            "Pase preciso",
-            "Saque preciso",
-            "Finta de colocador"
-        ],
-        "stats_recomendados": {
-            "stats": [
-                "Colocación",
-                "Percepción",
-                "Fuerza",
-                "Técnica ofensiva",
-                "Saque"
-            ],
-            "puntos": [
-                4,
-                3,
-                3,
-                2,
-                1
-            ]
-        },
         "candidatos_4": [
             "Pase preciso"
         ],
@@ -947,32 +1018,36 @@
         "imagen": "SP Akaashi.png",
         "escuela": "Fukurodani",
         "rareza": "SP",
-        "rol": "S"
+        "rol": "S",
+        "builds": {
+            "Base": {
+                "tipos_recomendados": [
+                    "Pase preciso",
+                    "Saque preciso",
+                    "Finta de colocador"
+                ],
+                "stats_recomendados": {
+                    "stats": [
+                        "Colocación",
+                        "Percepción",
+                        "Fuerza",
+                        "Técnica ofensiva",
+                        "Saque"
+                    ],
+                    "puntos": [
+                        4,
+                        3,
+                        3,
+                        2,
+                        1
+                    ]
+                }
+            }
+        }
     },
     "SP Aone": {
         "Equipar": false,
         "activo": true,
-        "tipos_recomendados": [
-            "Guardia contundente",
-            "Bloque preciso",
-            "Movimiento de bloqueo"
-        ],
-        "stats_recomendados": {
-            "stats": [
-                "Reflejos",
-                "Bloqueo",
-                "Espíritu",
-                "Técnica defensiva",
-                "Saque"
-            ],
-            "puntos": [
-                4,
-                3,
-                2,
-                2,
-                1
-            ]
-        },
         "candidatos_4": [
             "Guardia contundente"
         ],
@@ -987,32 +1062,36 @@
         "imagen": "SP Aone.png",
         "escuela": "Date",
         "rareza": "SP",
-        "rol": "MB"
+        "rol": "MB",
+        "builds": {
+            "Base": {
+                "tipos_recomendados": [
+                    "Guardia contundente",
+                    "Bloque preciso",
+                    "Movimiento de bloqueo"
+                ],
+                "stats_recomendados": {
+                    "stats": [
+                        "Reflejos",
+                        "Bloqueo",
+                        "Espíritu",
+                        "Técnica defensiva",
+                        "Saque"
+                    ],
+                    "puntos": [
+                        4,
+                        3,
+                        2,
+                        2,
+                        1
+                    ]
+                }
+            }
+        }
     },
     "SP Kuroo": {
         "Equipar": false,
         "activo": false,
-        "tipos_recomendados": [
-            "Guardia contundente",
-            "Bloque preciso",
-            "Movimiento de bloqueo"
-        ],
-        "stats_recomendados": {
-            "stats": [
-                "Bloqueo",
-                "Espíritu",
-                "Recepción",
-                "Técnica defensiva",
-                "Reflejos"
-            ],
-            "puntos": [
-                4,
-                3,
-                2,
-                2,
-                1
-            ]
-        },
         "candidatos_4": [
             "Guardia contundente"
         ],
@@ -1027,37 +1106,36 @@
         "imagen": "SP Kuroo.png",
         "escuela": "Nekoma",
         "rareza": "SP",
-        "rol": "MB"
+        "rol": "MB",
+        "builds": {
+            "Base": {
+                "tipos_recomendados": [
+                    "Guardia contundente",
+                    "Bloque preciso",
+                    "Movimiento de bloqueo"
+                ],
+                "stats_recomendados": {
+                    "stats": [
+                        "Bloqueo",
+                        "Espíritu",
+                        "Recepción",
+                        "Técnica defensiva",
+                        "Reflejos"
+                    ],
+                    "puntos": [
+                        4,
+                        3,
+                        2,
+                        2,
+                        1
+                    ]
+                }
+            }
+        }
     },
     "SP Koganegawa": {
         "Equipar": false,
         "activo": false,
-        "tipos_recomendados": [
-            "Guardia contundente",
-            "Bloque preciso",
-            "Movimiento de bloqueo",
-            "Pase preciso",
-            "Saque preciso",
-            "Finta de colocador"
-        ],
-        "stats_recomendados": {
-            "stats": [
-                "Espíritu",
-                "Bloqueo",
-                "Fuerza",
-                "Colocación",
-                "Técnica defensiva",
-                "Reflejos"
-            ],
-            "puntos": [
-                4,
-                4,
-                3,
-                3,
-                2,
-                1
-            ]
-        },
         "candidatos_4": [
             "Guardia contundente"
         ],
@@ -1072,36 +1150,41 @@
         "imagen": "default.png",
         "escuela": "Date",
         "rareza": "SP",
-        "rol": "S"
+        "rol": "S",
+        "builds": {
+            "Base": {
+                "tipos_recomendados": [
+                    "Guardia contundente",
+                    "Bloque preciso",
+                    "Movimiento de bloqueo",
+                    "Pase preciso",
+                    "Saque preciso",
+                    "Finta de colocador"
+                ],
+                "stats_recomendados": {
+                    "stats": [
+                        "Espíritu",
+                        "Bloqueo",
+                        "Fuerza",
+                        "Colocación",
+                        "Técnica defensiva",
+                        "Reflejos"
+                    ],
+                    "puntos": [
+                        4,
+                        4,
+                        3,
+                        3,
+                        2,
+                        1
+                    ]
+                }
+            }
+        }
     },
     "SP Oikawa": {
         "Equipar": false,
         "activo": false,
-        "tipos_recomendados": [
-            "Pase preciso",
-            "Saque preciso",
-            "Finta de colocador"
-        ],
-        "stats_recomendados": {
-            "stats": [
-                "Fuerza",
-                "Colocación",
-                "Saque",
-                "Técnica ofensiva",
-                "Percepción",
-                "Bloqueo",
-                "Recepción"
-            ],
-            "puntos": [
-                4,
-                3,
-                3,
-                2,
-                1,
-                1,
-                1
-            ]
-        },
         "candidatos_4": [
             "Pase preciso"
         ],
@@ -1116,36 +1199,40 @@
         "imagen": "default.png",
         "escuela": "Aoba Josai",
         "rareza": "SP",
-        "rol": "S"
+        "rol": "S",
+        "builds": {
+            "Base": {
+                "tipos_recomendados": [
+                    "Pase preciso",
+                    "Saque preciso",
+                    "Finta de colocador"
+                ],
+                "stats_recomendados": {
+                    "stats": [
+                        "Fuerza",
+                        "Colocación",
+                        "Saque",
+                        "Técnica ofensiva",
+                        "Percepción",
+                        "Bloqueo",
+                        "Recepción"
+                    ],
+                    "puntos": [
+                        4,
+                        3,
+                        3,
+                        2,
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            }
+        }
     },
     "SP Iwaizumi": {
         "Equipar": false,
         "activo": false,
-        "tipos_recomendados": [
-            "Guardia contundente",
-            "Recepción de asistencia",
-            "Recepción suprema"
-        ],
-        "stats_recomendados": {
-            "stats": [
-                "Espíritu",
-                "Recepción",
-                "Técnica defensiva",
-                "Fuerza",
-                "Ataque poderoso",
-                "Percepción",
-                "Técnica ofensiva"
-            ],
-            "puntos": [
-                4,
-                3,
-                2,
-                2,
-                2,
-                1,
-                1
-            ]
-        },
         "candidatos_4": [
             "Guardia contundente",
             "Recepción de asistencia"
@@ -1161,33 +1248,40 @@
         "imagen": "default.png",
         "escuela": "Aoba Josai",
         "rareza": "SP",
-        "rol": "WS"
+        "rol": "WS",
+        "builds": {
+            "Base": {
+                "tipos_recomendados": [
+                    "Guardia contundente",
+                    "Recepción de asistencia",
+                    "Recepción suprema"
+                ],
+                "stats_recomendados": {
+                    "stats": [
+                        "Espíritu",
+                        "Recepción",
+                        "Técnica defensiva",
+                        "Fuerza",
+                        "Ataque poderoso",
+                        "Percepción",
+                        "Técnica ofensiva"
+                    ],
+                    "puntos": [
+                        4,
+                        3,
+                        2,
+                        2,
+                        2,
+                        1,
+                        1
+                    ]
+                }
+            }
+        }
     },
     "UR Ushijima": {
         "Equipar": false,
         "activo": true,
-        "tipos_recomendados": [
-            "Poder vibrante",
-            "Incremento de poder",
-            "Opt. de estado",
-            "Potenciación de la moral"
-        ],
-        "stats_recomendados": {
-            "stats": [
-                "Fuerza",
-                "Percepción",
-                "Ataque poderoso",
-                "Técnica ofensiva",
-                "Reflejos"
-            ],
-            "puntos": [
-                4,
-                3,
-                3,
-                2,
-                1
-            ]
-        },
         "candidatos_4": [
             "Poder vibrante"
         ],
@@ -1202,33 +1296,37 @@
         "imagen": "UR Ushijima.png",
         "escuela": "Shiratorizawa",
         "rareza": "UR",
-        "rol": "OP"
+        "rol": "OP",
+        "builds": {
+            "Base": {
+                "tipos_recomendados": [
+                    "Poder vibrante",
+                    "Incremento de poder",
+                    "Opt. de estado",
+                    "Potenciación de la moral"
+                ],
+                "stats_recomendados": {
+                    "stats": [
+                        "Fuerza",
+                        "Percepción",
+                        "Ataque poderoso",
+                        "Técnica ofensiva",
+                        "Reflejos"
+                    ],
+                    "puntos": [
+                        4,
+                        3,
+                        3,
+                        2,
+                        1
+                    ]
+                }
+            }
+        }
     },
     "UR Bokuto": {
         "Equipar": false,
         "activo": true,
-        "tipos_recomendados": [
-            "Potenciación de la moral",
-            "Poder vibrante",
-            "Incremento de poder",
-            "Opt. de estado"
-        ],
-        "stats_recomendados": {
-            "stats": [
-                "Fuerza",
-                "Ataque poderoso",
-                "Percepción",
-                "Técnica ofensiva",
-                "Reflejos"
-            ],
-            "puntos": [
-                4,
-                3,
-                3,
-                2,
-                1
-            ]
-        },
         "candidatos_4": [
             "Potenciación de la moral"
         ],
@@ -1243,34 +1341,37 @@
         "imagen": "UR Bokuto.png",
         "escuela": "Fukurodani",
         "rareza": "UR",
-        "rol": "WS"
+        "rol": "WS",
+        "builds": {
+            "Base": {
+                "tipos_recomendados": [
+                    "Potenciación de la moral",
+                    "Poder vibrante",
+                    "Incremento de poder",
+                    "Opt. de estado"
+                ],
+                "stats_recomendados": {
+                    "stats": [
+                        "Fuerza",
+                        "Ataque poderoso",
+                        "Percepción",
+                        "Técnica ofensiva",
+                        "Reflejos"
+                    ],
+                    "puntos": [
+                        4,
+                        3,
+                        3,
+                        2,
+                        1
+                    ]
+                }
+            }
+        }
     },
     "SSR Tendo": {
         "Equipar": false,
         "activo": true,
-        "tipos_recomendados": [
-            "Guardia contundente",
-            "Bloque preciso",
-            "Movimiento de bloqueo"
-        ],
-        "stats_recomendados": {
-            "stats": [
-                "Reflejos",
-                "Espíritu",
-                "Bloqueo",
-                "Técnica defensiva",
-                "Percepción",
-                "Ataque rápido"
-            ],
-            "puntos": [
-                4,
-                3,
-                3,
-                2,
-                1,
-                1
-            ]
-        },
         "candidatos_4": [
             "Guardia contundente"
         ],
@@ -1285,34 +1386,38 @@
         "imagen": "SSR Tendo.png",
         "escuela": "Shiratorizawa",
         "rareza": "SSR",
-        "rol": "MB"
+        "rol": "MB",
+        "builds": {
+            "Base": {
+                "tipos_recomendados": [
+                    "Guardia contundente",
+                    "Bloque preciso",
+                    "Movimiento de bloqueo"
+                ],
+                "stats_recomendados": {
+                    "stats": [
+                        "Reflejos",
+                        "Espíritu",
+                        "Bloqueo",
+                        "Técnica defensiva",
+                        "Percepción",
+                        "Ataque rápido"
+                    ],
+                    "puntos": [
+                        4,
+                        3,
+                        3,
+                        2,
+                        1,
+                        1
+                    ]
+                }
+            }
+        }
     },
     "SSR Akaashi": {
         "Equipar": false,
         "activo": true,
-        "tipos_recomendados": [
-            "Pase preciso",
-            "Saque preciso",
-            "Finta de colocador"
-        ],
-        "stats_recomendados": {
-            "stats": [
-                "Percepción",
-                "Colocación",
-                "Fuerza",
-                "Técnica ofensiva",
-                "Saque",
-                "Recepción"
-            ],
-            "puntos": [
-                4,
-                3,
-                3,
-                2,
-                1,
-                1
-            ]
-        },
         "candidatos_4": [
             "Pase preciso"
         ],
@@ -1327,32 +1432,38 @@
         "imagen": "SSR Akaashi.png",
         "escuela": "Fukurodani",
         "rareza": "SSR",
-        "rol": "S"
+        "rol": "S",
+        "builds": {
+            "Base": {
+                "tipos_recomendados": [
+                    "Pase preciso",
+                    "Saque preciso",
+                    "Finta de colocador"
+                ],
+                "stats_recomendados": {
+                    "stats": [
+                        "Percepción",
+                        "Colocación",
+                        "Fuerza",
+                        "Técnica ofensiva",
+                        "Saque",
+                        "Recepción"
+                    ],
+                    "puntos": [
+                        4,
+                        3,
+                        3,
+                        2,
+                        1,
+                        1
+                    ]
+                }
+            }
+        }
     },
     "SSR Aone": {
         "Equipar": false,
         "activo": true,
-        "tipos_recomendados": [
-            "Bloque preciso",
-            "Guardia contundente",
-            "Movimiento de bloqueo"
-        ],
-        "stats_recomendados": {
-            "stats": [
-                "Reflejos",
-                "Bloqueo",
-                "Técnica defensiva",
-                "Espíritu",
-                "Ataque rápido"
-            ],
-            "puntos": [
-                4,
-                3,
-                2,
-                1,
-                1
-            ]
-        },
         "candidatos_4": [
             "Bloque preciso"
         ],
@@ -1367,34 +1478,36 @@
         "imagen": "SSR Aone.png",
         "escuela": "Date",
         "rareza": "SSR",
-        "rol": "MB"
+        "rol": "MB",
+        "builds": {
+            "Base": {
+                "tipos_recomendados": [
+                    "Bloque preciso",
+                    "Guardia contundente",
+                    "Movimiento de bloqueo"
+                ],
+                "stats_recomendados": {
+                    "stats": [
+                        "Reflejos",
+                        "Bloqueo",
+                        "Técnica defensiva",
+                        "Espíritu",
+                        "Ataque rápido"
+                    ],
+                    "puntos": [
+                        4,
+                        3,
+                        2,
+                        1,
+                        1
+                    ]
+                }
+            }
+        }
     },
     "SSR Shirabu": {
         "Equipar": false,
         "activo": true,
-        "tipos_recomendados": [
-            "Pase preciso",
-            "Saque preciso",
-            "Finta de colocador"
-        ],
-        "stats_recomendados": {
-            "stats": [
-                "Percepción",
-                "Colocación",
-                "Fuerza",
-                "Técnica ofensiva",
-                "Saque",
-                "Reflejos"
-            ],
-            "puntos": [
-                4,
-                3,
-                3,
-                2,
-                1,
-                1
-            ]
-        },
         "candidatos_4": [
             "Pase preciso"
         ],
@@ -1409,32 +1522,38 @@
         "imagen": "SSR Shirabu.png",
         "escuela": "Shiratorizawa",
         "rareza": "SSR",
-        "rol": "S"
+        "rol": "S",
+        "builds": {
+            "Base": {
+                "tipos_recomendados": [
+                    "Pase preciso",
+                    "Saque preciso",
+                    "Finta de colocador"
+                ],
+                "stats_recomendados": {
+                    "stats": [
+                        "Percepción",
+                        "Colocación",
+                        "Fuerza",
+                        "Técnica ofensiva",
+                        "Saque",
+                        "Reflejos"
+                    ],
+                    "puntos": [
+                        4,
+                        3,
+                        3,
+                        2,
+                        1,
+                        1
+                    ]
+                }
+            }
+        }
     },
     "SSR Washio": {
         "Equipar": false,
         "activo": true,
-        "tipos_recomendados": [
-            "Guardia contundente",
-            "Bloque preciso",
-            "Movimiento de bloqueo"
-        ],
-        "stats_recomendados": {
-            "stats": [
-                "Espíritu",
-                "Bloqueo",
-                "Técnica defensiva",
-                "Reflejos",
-                "Ataque rápido"
-            ],
-            "puntos": [
-                4,
-                3,
-                2,
-                1,
-                1
-            ]
-        },
         "candidatos_4": [
             "Guardia contundente"
         ],
@@ -1449,35 +1568,36 @@
         "imagen": "SSR Washio.png",
         "escuela": "Fukurodani",
         "rareza": "SSR",
-        "rol": "MB"
+        "rol": "MB",
+        "builds": {
+            "Base": {
+                "tipos_recomendados": [
+                    "Guardia contundente",
+                    "Bloque preciso",
+                    "Movimiento de bloqueo"
+                ],
+                "stats_recomendados": {
+                    "stats": [
+                        "Espíritu",
+                        "Bloqueo",
+                        "Técnica defensiva",
+                        "Reflejos",
+                        "Ataque rápido"
+                    ],
+                    "puntos": [
+                        4,
+                        3,
+                        2,
+                        1,
+                        1
+                    ]
+                }
+            }
+        }
     },
     "SSR Terushima": {
         "Equipar": false,
         "activo": true,
-        "tipos_recomendados": [
-            "Poder vibrante",
-            "Opt. de estado",
-            "Potenciación de la moral",
-            "Incremento de poder"
-        ],
-        "stats_recomendados": {
-            "stats": [
-                "Percepción",
-                "Ataque poderoso",
-                "Técnica ofensiva",
-                "Fuerza",
-                "Recepción",
-                "Reflejos"
-            ],
-            "puntos": [
-                4,
-                3,
-                2,
-                2,
-                1,
-                1
-            ]
-        },
         "candidatos_4": [
             "Poder vibrante",
             "Opt. de estado"
@@ -1493,27 +1613,37 @@
         "imagen": "SSR Terushima.png",
         "escuela": "Johzenji",
         "rareza": "SSR",
-        "rol": "WS"
+        "rol": "WS",
+        "builds": {
+            "Base": {
+                "tipos_recomendados": [
+                    "Poder vibrante",
+                    "Opt. de estado",
+                    "Potenciación de la moral",
+                    "Incremento de poder"
+                ],
+                "stats_recomendados": {
+                    "stats": [
+                        "Percepción",
+                        "Ataque poderoso",
+                        "Técnica ofensiva",
+                        "Fuerza",
+                        "Recepción",
+                        "Reflejos"
+                    ],
+                    "puntos": [
+                        4,
+                        3,
+                        2,
+                        2,
+                        1,
+                        1
+                    ]
+                }
+            }
+        }
     },
     "UR Kageyama": {
-        "tipos_recomendados": [
-            "Finta de colocador",
-            "Opt. de percepción"
-        ],
-        "stats_recomendados": {
-            "stats": [
-                "Fuerza",
-                "Colocación",
-                "Percepción",
-                "Técnica ofensiva"
-            ],
-            "puntos": [
-                2,
-                2,
-                2,
-                1
-            ]
-        },
         "candidatos_4": [
             "Finta de colocador"
         ],
@@ -1529,6 +1659,28 @@
         "escuela": "Karasuno",
         "rareza": "UR",
         "rol": "S",
-        "activo": true
+        "activo": true,
+        "builds": {
+            "Base": {
+                "tipos_recomendados": [
+                    "Finta de colocador",
+                    "Opt. de percepción"
+                ],
+                "stats_recomendados": {
+                    "stats": [
+                        "Fuerza",
+                        "Colocación",
+                        "Percepción",
+                        "Técnica ofensiva"
+                    ],
+                    "puntos": [
+                        2,
+                        2,
+                        2,
+                        1
+                    ]
+                }
+            }
+        }
     }
 }

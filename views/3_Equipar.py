@@ -34,18 +34,18 @@ def main():
 
     stats_recomendados = {
         jugador: {
-            "stats": config[jugador]["stats_recomendados"]["stats"],
+            "stats": config[jugador]["builds"]["Base"]["stats_recomendados"]["stats"],
             "puntos": dict(zip(
-                config[jugador]["stats_recomendados"]["stats"],
-                config[jugador]["stats_recomendados"]["puntos"]
+                config[jugador]["builds"]["Base"]["stats_recomendados"]["stats"],
+                config[jugador]["builds"]["Base"]["stats_recomendados"]["puntos"]
             ))
         }
-        for jugador in config
+        for jugador in config if "builds" in config[jugador]
     }
 
     tipos_recomendados = {
-        jugador: config[jugador]["tipos_recomendados"]
-        for jugador in config
+        jugador: config[jugador]["builds"]["Base"]["tipos_recomendados"]
+        for jugador in config if "builds" in config[jugador]
     }
 
     # Sync player order
@@ -118,7 +118,7 @@ def main():
             if pid_act:
                 pieza_act_data = next((p for p in inventarios[s] if str(p["ID"]).replace(".0", "") == str(pid_act).replace(".0", "")), None)
                 if pieza_act_data:
-                    eval_act = evaluar_pieza_para_jugador_en_slot(pieza_act_data, jugador, pieza_act_data["Tipo"], s, inventarios, config[jugador]["stats_recomendados"])
+                    eval_act = evaluar_pieza_para_jugador_en_slot(pieza_act_data, jugador, pieza_act_data["Tipo"], s, inventarios, config[jugador]["builds"]["Base"]["stats_recomendados"])
             p_total_act += eval_act["puntaje"]
 
             # Recommended
@@ -128,7 +128,7 @@ def main():
             if id_rec:
                 pieza_rec_data = next((p for p in inventarios[s] if str(p["ID"]).replace(".0", "") == str(id_rec).replace(".0", "")), None)
                 if pieza_rec_data:
-                    eval_rec = evaluar_pieza_para_jugador_en_slot(pieza_rec_data, jugador, pieza_rec_data["Tipo"], s, inventarios, config[jugador]["stats_recomendados"])
+                    eval_rec = evaluar_pieza_para_jugador_en_slot(pieza_rec_data, jugador, pieza_rec_data["Tipo"], s, inventarios, config[jugador]["builds"]["Base"]["stats_recomendados"])
             p_total_rec += eval_rec["puntaje"]
 
             # Conflict detection: is id_rec equipped by a LESS priority player?
