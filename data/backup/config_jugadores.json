@@ -1,0 +1,301 @@
+{
+    "Hoshiumi": {
+        "candidatos_4": [
+            "Poder vibrante",
+            "Opt. de estado"
+        ],
+        "slots_activos": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "Equipar": true
+    },
+    "Sakusa": {
+        "candidatos_4": [
+            "Poder vibrante",
+            "Opt. de estado"
+        ],
+        "slots_activos": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "Equipar": true
+    },
+    "Komori": {
+        "candidatos_4": [
+            "Recepción de asistencia"
+        ],
+        "slots_activos": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "Equipar": true
+    },
+    "Hirugami": {
+        "candidatos_4": [
+            "Guardia contundente",
+            "Bloque preciso"
+        ],
+        "slots_activos": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "Equipar": true
+    },
+    "Oikawa": {
+        "candidatos_4": [
+            "Saque preciso"
+        ],
+        "slots_activos": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "Equipar": true
+    },
+    "Iwaizumi": {
+        "candidatos_4": [
+            "Poder vibrante"
+        ],
+        "slots_activos": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "Equipar": true
+    },
+    "Hinata": {
+        "candidatos_4": [
+            "Ataque veloz"
+        ],
+        "slots_activos": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "Equipar": true
+    },
+    "Atsumu": {
+        "candidatos_4": [
+            "Saque preciso"
+        ],
+        "slots_activos": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "Equipar": true
+    },
+    "Osamu": {
+        "candidatos_4": [
+            "Ataque veloz"
+        ],
+        "slots_activos": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "Equipar": true
+    },
+    "Kita": {
+        "candidatos_4": [
+            "Recepción de asistencia"
+        ],
+        "slots_activos": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "Equipar": true
+    },
+    "Kenma": {
+        "candidatos_4": [
+            "Pase preciso"
+        ],
+        "slots_activos": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "Equipar": true
+    },
+    "Kuroo": {
+        "candidatos_4": [
+            "Bloque preciso"
+        ],
+        "slots_activos": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "Equipar": true
+    },
+    "Sugawara": {
+        "candidatos_4": [
+            "Pase preciso",
+            "Saque preciso"
+        ],
+        "slots_activos": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "Equipar": true
+    },
+    "Yamamoto": {
+        "candidatos_4": [
+            "Recepción de asistencia"
+        ],
+        "slots_activos": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "Equipar": true
+    },
+    "Nishinoya": {
+        "candidatos_4": [
+            "Recepción de asistencia",
+            "Guardia contundente"
+        ],
+        "slots_activos": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "Equipar": true
+    },
+    "Suna": {
+        "candidatos_4": [
+            "Bloque preciso"
+        ],
+        "slots_activos": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "Equipar": true
+    },
+    "Akagi": {
+        "candidatos_4": [
+            "Recepción de asistencia"
+        ],
+        "slots_activos": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "Equipar": true
+    },
+    "Tsukishima": {
+        "candidatos_4": [
+            "Bloque preciso"
+        ],
+        "slots_activos": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "Equipar": true
+    },
+    "Tanaka": {
+        "candidatos_4": [
+            "Poder vibrante"
+        ],
+        "slots_activos": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "Equipar": true
+    },
+    "Ojiro": {
+        "candidatos_4": [
+            "Opt. de estado"
+        ],
+        "slots_activos": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "Equipar": true
+    },
+    "Kyotani": {
+        "candidatos_4": [
+            "Poder vibrante"
+        ],
+        "slots_activos": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "Equipar": true
+    }
+}

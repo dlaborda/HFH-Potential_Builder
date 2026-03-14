@@ -1,0 +1,198 @@
+ID;Calidad;Tipo;Main Stat;Substat1;Substat2;Substat3;Substat4
+1;Legendario;Poder vibrante;Bloqueo;Ataque poderoso;Saque;Espíritu;Recepción
+2;Legendario;Poder vibrante;Ataque poderoso;Técnica ofensiva;Ataque rápido;Ataque poderoso;Espíritu
+3;Legendario;Poder vibrante;Colocación;Colocación;Ataque poderoso;Espíritu;Saque
+14;Épico;Incremento de poder;Técnica ofensiva;Percepción;Recepción;Ataque poderoso;
+25;Legendario;Saque preciso;Colocación;Bloqueo;Ataque poderoso;Saque;Percepción
+29;Legendario;Pase preciso;Ataque rápido;Saque;Recuperación;Recepción;Recuperación
+30;Legendario;Pase preciso;Recuperación;Recepción;Ataque rápido;Técnica ofensiva;Colocación
+46;Épico;Saque preciso;Saque;Ataque rápido;Recuperación;Saque;
+52;Épico;Pase preciso;Saque;Percepción;Saque;;
+53;Legendario;Sentido agudo;Colocación;Colocación;Ataque poderoso;Fuerza;Ataque rápido
+64;Legendario;Ataque veloz;Ataque rápido;Recuperación;Ataque poderoso;Bloqueo;
+65;Legendario;Sentido agudo;Saque;Colocación;Fuerza;Ataque rápido;Ataque poderoso
+66;Legendario;Sentido agudo;Saque;Bloqueo;Saque;Ataque poderoso;
+81;Épico;Ataque veloz;Ataque rápido;Ataque rápido;Técnica defensiva;;
+95;Épico;Sentido agudo;Técnica ofensiva;Ataque rápido;Reflejos;Saque;
+96;Legendario;Movimiento de bloqueo;Saque;Ataque rápido;Bloqueo;Ataque poderoso;Técnica defensiva
+114;Legendario;Bloque preciso;Ataque rápido;Reflejos;Fuerza;Bloqueo;
+115;Legendario;Movimiento de bloqueo;Ataque rápido;Bloqueo;Ataque rápido;Ataque rápido;Ataque poderoso
+116;Legendario;Movimiento de bloqueo;Colocación;Bloqueo;Ataque rápido;Técnica ofensiva;
+117;Épico;Bloque preciso;Saque;Bloqueo;Ataque rápido;Saque;
+145;Legendario;Recepción de asistencia;Recepción;Ataque rápido;Recuperación;Recuperación;
+146;Legendario;Recepción suprema;Bloqueo;Colocación;Ataque rápido;Ataque rápido;Recuperación
+147;Legendario;Recepción suprema;Saque;Ataque rápido;Saque;Recepción;
+152;Épico;Recepción de asistencia;Recuperación;Recepción;Ataque rápido;;
+153;Épico;Recepción de asistencia;Técnica defensiva;Recepción;Técnica ofensiva;Ataque poderoso;
+157;Épico;Recepción suprema;Recepción;Ataque rápido;Recuperación;;
+158;Legendario;Movimiento de bloqueo;Saque;Colocación;Bloqueo;Fuerza;Reflejos
+159;Épico;Incremento de poder;Saque;Ataque poderoso;Ataque poderoso;;
+160;Legendario;Sentido agudo;Técnica defensiva;Ataque poderoso;Recepción;Recepción;
+161;Legendario;Poder vibrante;Recepción;Bloqueo;Recuperación;Ataque poderoso;
+162;Legendario;Recepción suprema;Recuperación;Recepción;Técnica defensiva;Reflejos;
+165;Legendario;Sentido agudo;Saque;Ataque rápido;Bloqueo;Espíritu;
+166;Épico;Saque preciso;Colocación;Ataque rápido;Ataque poderoso;Bloqueo;
+167;Épico;Saque preciso;Colocación;Recepción;Ataque poderoso;;
+168;Épico;Saque preciso;Bloqueo;Espíritu;Colocación;;
+169;Épico;Pase preciso;Colocación;Recepción;Espíritu;Colocación;
+170;Épico;Pase preciso;Saque;Recepción;Colocación;;
+174;Épico;Incremento de poder;Técnica ofensiva;Técnica defensiva;Fuerza;;
+175;Épico;Incremento de poder;Ataque poderoso;Recepción;Ataque poderoso;;
+176;Épico;Incremento de poder;Ataque poderoso;Recuperación;Colocación;;
+178;Épico;Ataque veloz;Ataque rápido;Reflejos;Recuperación;;
+179;Épico;Ataque veloz;Bloqueo;Recepción;Espíritu;;
+181;Épico;Sentido agudo;Saque;Bloqueo;Recepción;;
+182;Épico;Bloque preciso;Bloqueo;Recuperación;Ataque rápido;;
+183;Épico;Movimiento de bloqueo;Bloqueo;Técnica defensiva;Ataque rápido;;
+184;Épico;Recepción de asistencia;Ataque poderoso;Ataque rápido;Recepción;;
+185;Épico;Recepción de asistencia;Colocación;Técnica defensiva;Bloqueo;;
+186;Legendario;Sentido agudo;Colocación;Colocación;Técnica ofensiva;Recepción;Ataque poderoso
+187;Legendario;Potenciación de la moral;Técnica ofensiva;Recuperación;Recepción;Espíritu;
+188;Legendario;Opt. de percepción;Recepción;Ataque poderoso;Bloqueo;Reflejos;
+189;Épico;Opt. de percepción;Colocación;Recuperación;Bloqueo;;
+190;Épico;Opt. de percepción;Colocación;Ataque poderoso;Bloqueo;;
+191;Épico;Opt. de percepción;Colocación;Saque;Ataque rápido;;
+192;Épico;Opt. de percepción;Colocación;Ataque poderoso;Colocación;Ataque rápido;
+193;Épico;Finta de colocador;Bloqueo;Colocación;Saque;;
+194;Épico;Finta de colocador;Ataque poderoso;Técnica ofensiva;Ataque poderoso;;
+195;Épico;Finta de colocador;Colocación;Recepción;Ataque poderoso;;
+196;Épico;Finta de colocador;Técnica defensiva;Ataque poderoso;Recepción;;
+197;Épico;Finta de colocador;Ataque rápido;Colocación;Ataque poderoso;;
+198;Épico;Finta de colocador;Colocación;Espíritu;Saque;;
+199;Épico;Finta de colocador;Ataque poderoso;Saque;Colocación;;
+200;Épico;Finta de colocador;Ataque rápido;Colocación;Bloqueo;Ataque rápido;
+201;Legendario;Guardia contundente;Bloqueo;Saque;Colocación;Recepción;
+202;Épico;Guardia contundente;Recuperación;Recuperación;Saque;;
+203;Épico;Guardia contundente;Técnica defensiva;Ataque poderoso;Espíritu;;
+204;Épico;Guardia contundente;Ataque poderoso;Ataque poderoso;Colocación;;
+205;Épico;Guardia contundente;Ataque poderoso;Ataque poderoso;Espíritu;Bloqueo;
+206;Épico;Guardia contundente;Bloqueo;Ataque rápido;Bloqueo;Recuperación;
+207;Épico;Guardia contundente;Recepción;Recuperación;Recepción;;
+208;Épico;Guardia contundente;Recuperación;Percepción;Bloqueo;;
+209;Épico;Guardia contundente;Recuperación;Ataque poderoso;Colocación;;
+210;Épico;Guardia contundente;Ataque poderoso;Colocación;Recepción;;
+211;Legendario;Opt. de estado;Colocación;Recepción;Fuerza;Ataque rápido;Bloqueo
+212;Legendario;Opt. de estado;Técnica ofensiva;Colocación;Colocación;Espíritu;Ataque rápido
+213;Épico;Opt. de estado;Técnica defensiva;Colocación;Recuperación;;
+214;Épico;Opt. de estado;Recuperación;Saque;Ataque rápido;Saque;
+215;Épico;Opt. de estado;Colocación;Percepción;Bloqueo;Espíritu;
+216;Épico;Opt. de estado;Ataque poderoso;Recuperación;Ataque rápido;;
+217;Épico;Opt. de estado;Ataque poderoso;Bloqueo;Saque;;
+218;Épico;Opt. de estado;Recepción;Recuperación;Técnica defensiva;;
+219;Legendario;Saque preciso;Saque;Saque;Ataque rápido;Saque;Ataque poderoso
+220;Épico;Recepción suprema;Recepción;Recepción;Recuperación;Colocación;
+221;Épico;Opt. de percepción;Colocación;Colocación;Percepción;Recepción;
+222;Épico;Finta de colocador;Técnica ofensiva;Ataque poderoso;Percepción;Recepción;
+223;Épico;Opt. de estado;Recuperación;Ataque rápido;Colocación;;
+224;Legendario;Guardia contundente;Saque;Bloqueo;Ataque poderoso;Ataque poderoso;
+225;Épico;Opt. de percepción;Ataque rápido;Recuperación;Ataque poderoso;Saque;
+226;Épico;Opt. de percepción;Recuperación;Ataque poderoso;Ataque poderoso;;
+227;Épico;Finta de colocador;Saque;Recepción;Saque;;
+228;Épico;Finta de colocador;Saque;Ataque rápido;Recepción;Ataque poderoso;
+229;Épico;Finta de colocador;Colocación;Saque;Colocación;Espíritu;
+230;Épico;Finta de colocador;Recuperación;Recuperación;Colocación;Saque;
+231;Épico;Guardia contundente;Ataque rápido;Recepción;Recuperación;;
+233;Legendario;Pase preciso;Recepción;Técnica defensiva;Colocación;Saque;Reflejos
+234;Legendario;Sentido agudo;Técnica ofensiva;Ataque poderoso;Ataque rápido;Fuerza;
+235;Legendario;Recepción suprema;Saque;Recuperación;Recepción;Recepción;
+236;Legendario;Opt. de percepción;Saque;Recepción;Ataque poderoso;Recuperación;
+237;Épico;Opt. de percepción;Recuperación;Ataque poderoso;Bloqueo;Reflejos;
+238;Épico;Opt. de percepción;Recepción;Recepción;Saque;;
+239;Épico;Finta de colocador;Ataque poderoso;Bloqueo;Ataque poderoso;;
+240;Épico;Guardia contundente;Recepción;Bloqueo;Bloqueo;;
+241;Épico;Guardia contundente;Saque;Técnica ofensiva;Ataque poderoso;;
+242;Épico;Guardia contundente;Colocación;Bloqueo;Ataque rápido;;
+243;Épico;Guardia contundente;Bloqueo;Recuperación;Ataque poderoso;Colocación;
+244;Épico;Guardia contundente;Recepción;Bloqueo;Recuperación;Ataque rápido;
+245;Épico;Opt. de estado;Ataque poderoso;Reflejos;Bloqueo;;
+246;Épico;Opt. de estado;Bloqueo;Ataque rápido;Colocación;;
+247;Épico;Opt. de estado;Saque;Saque;Colocación;;
+248;Legendario;Poder vibrante;Saque;Ataque poderoso;Colocación;Espíritu;
+249;Legendario;Poder vibrante;Recepción;Ataque rápido;Recuperación;Ataque poderoso;
+250;Legendario;Ataque veloz;Técnica defensiva;Ataque rápido;Recuperación;Colocación;Bloqueo
+251;Legendario;Ataque veloz;Bloqueo;Saque;Ataque poderoso;Recuperación;Ataque rápido
+252;Legendario;Bloque preciso;Saque;Recepción;Recuperación;Bloqueo;Fuerza
+253;Legendario;Recepción suprema;Bloqueo;Saque;Colocación;Ataque rápido;
+254;Legendario;Potenciación de la moral;Técnica ofensiva;Fuerza;Espíritu;Recuperación;
+255;Legendario;Opt. de percepción;Saque;Espíritu;Recuperación;Recepción;
+256;Legendario;Finta de colocador;Ataque poderoso;Recuperación;Saque;Percepción;
+257;Legendario;Guardia contundente;Saque;Reflejos ;Bloqueo;Ataque poderoso;Recepción
+258;Legendario;Guardia contundente;Colocación;Espíritu;Colocación;Colocación;
+259;Legendario;Guardia contundente;Bloqueo;Fuerza;Recepción;Recuperación;Reflejos
+260;Legendario;Opt. de estado;Bloqueo;Ataque rápido;Colocación;Técnica ofensiva;
+261;Legendario;Opt. de estado;Colocación;Bloqueo;Recuperación;Recuperación;
+262;Legendario;Opt. de estado;Técnica ofensiva;Bloqueo;Fuerza;Bloqueo;
+263;Épico;Pase preciso;Ataque rápido;Saque;Colocación;Bloqueo;
+265;Épico;Movimiento de bloqueo;Saque;Saque;Ataque rápido;Recuperación;
+266;Épico;Movimiento de bloqueo;Ataque rápido;Espíritu;Técnica ofensiva;Ataque poderoso;
+267;Épico;Recepción suprema;Recuperación;Saque;Colocación;;
+268;Épico;Opt. de percepción;Bloqueo;Ataque poderoso;Ataque rápido;;
+269;Épico;Opt. de percepción;Recuperación;Saque;;;
+270;Épico;Opt. de percepción;Saque;Bloqueo;Recepción;;
+271;Épico;Opt. de percepción;Técnica ofensiva;Técnica ofensiva;Recuperación;;
+272;Épico;Opt. de percepción;Técnica defensiva;Saque;Colocación;;
+273;Épico;Opt. de percepción;Técnica ofensiva;Ataque poderoso;Ataque rápido;;
+274;Épico;Opt. de percepción;Recepción;Colocación;Colocación;;
+275;Épico;Opt. de percepción;Recuperación;Recuperación;Bloqueo;;
+276;Épico;Opt. de percepción;Saque;Bloqueo;Ataque poderoso;Recepción;
+277;Épico;Opt. de percepción;Colocación;Recuperación;Técnica defensiva;;
+278;Épico;Opt. de percepción;Bloqueo;Recuperación;Ataque poderoso;Bloqueo;
+279;Épico;Finta de colocador;Colocación;Fuerza;Colocación;Saque;
+280;Épico;Finta de colocador;Ataque poderoso;Bloqueo;Ataque poderoso;Recepción;
+281;Épico;Finta de colocador;Bloqueo;Saque;Bloqueo;;
+282;Épico;Finta de colocador;Ataque rápido;Técnica ofensiva;Ataque poderoso;;
+283;Épico;Finta de colocador;Colocación;Recuperación;Colocación;;
+284;Épico;Finta de colocador;Ataque poderoso;Percepción;Recepción;Recuperación;
+285;Épico;Finta de colocador;Ataque rápido;Ataque poderoso;Bloqueo;;
+286;Épico;Finta de colocador;Ataque rápido;Técnica ofensiva;Recuperación;;
+287;Épico;Finta de colocador;Bloqueo;Espíritu;Ataque rápido;;
+288;Épico;Finta de colocador;Colocación;Saque;Recuperación;;
+289;Épico;Finta de colocador;Ataque poderoso;Saque;Reflejos;;
+290;Épico;Finta de colocador;Recepción;Recepción;Ataque poderoso;;
+291;Épico;Guardia contundente;Colocación;Bloqueo;Ataque poderoso;;
+292;Épico;Guardia contundente;Ataque rápido;Recepción;Ataque poderoso;;
+293;Épico;Guardia contundente;Ataque rápido;Colocación;Bloqueo;;
+294;Épico;Guardia contundente;Recepción;Técnica defensiva;Ataque rápido;;
+295;Épico;Guardia contundente;Recepción;Ataque rápido;Recepción;Saque;
+296;Épico;Guardia contundente;Bloqueo;Recepción;Recuperación;;
+297;Épico;Opt. de estado;Ataque poderoso;Técnica ofensiva;Bloqueo;;
+298;Épico;Opt. de estado;Colocación;Colocación;Bloqueo;;
+299;Épico;Opt. de estado;Técnica ofensiva;Recuperación;Ataque poderoso;;
+300;Épico;Opt. de estado;Técnica ofensiva;Colocación;Saque;;
+301;Épico;Opt. de estado;Ataque poderoso;Recepción;Ataque poderoso;Técnica defensiva;
+302;Épico;Opt. de estado;Recuperación;Percepción;Recepción;;
+303;Épico;Opt. de estado;Recepción;Colocación;Ataque poderoso;;
+304;Épico;Opt. de estado;Saque;Percepción;Técnica defensiva;;
+305;Épico;Opt. de estado;Bloqueo;Percepción;Colocación;;
+306;Épico;Opt. de percepción;Recuperación;Bloqueo;Ataque poderoso;;
+307;Épico;Finta de colocador;Técnica defensiva;Recepción;Reflejos;;
+308;Épico;Opt. de estado;Bloqueo;Saque;Recepción;Colocación;
+309;Legendario;Finta de colocador;Colocación;Percepción;Colocación;Recepción;
+310;Épico;Finta de colocador;Colocación;Recepción;Colocación;Percepción;
+311;Épico;Guardia contundente;Recuperación;Recuperación;Ataque rápido;Reflejos;
+312;Épico;Opt. de estado;Recuperación;Saque;Técnica defensiva;;
+313;Épico;Opt. de estado;Saque;Colocación;Recuperación;;
+314;Épico;Opt. de percepción;Recuperación;Recuperación;Espíritu;Saque;
+315;Épico;Opt. de percepción;Saque;Ataque rápido;Percepción;Ataque rápido;
+316;Épico;Opt. de percepción;Colocación;Saque;Ataque rápido;Ataque rápido;
+317;Épico;Opt. de percepción;Colocación;Ataque rápido;Colocación;;
+318;Épico;Guardia contundente;Bloqueo;Recepción;Bloqueo;Colocación;
+319;Épico;Guardia contundente;Recepción;Ataque poderoso;Técnica defensiva;;
+320;Épico;Guardia contundente;Recepción;Ataque rápido;Ataque rápido;;
+321;Épico;Guardia contundente;Recuperación;Técnica defensiva;Bloqueo;;
+322;Épico;Guardia contundente;Recuperación;Saque;Colocación;;
+323;Épico;Opt. de estado;Técnica ofensiva;Recepción;Recuperación;;
+324;Legendario;Poder vibrante;Saque;Ataque poderoso;Colocación;Espíritu;
+325;Legendario;Ataque veloz;Colocación;Bloqueo;Fuerza;Recuperación;
+326;Legendario;Finta de colocador;Recepción;Ataque rápido;Recepción;Bloqueo;
+327;Épico;Poder vibrante;Saque;Bloqueo;Colocación;;
+328;Épico;Poder vibrante;Ataque poderoso;Técnica ofensiva;Colocación;;
+329;Épico;Poder vibrante;Saque;Reflejos;Recepción;Ataque rápido;
+330;Épico;Poder vibrante;Saque;Ataque poderoso;Ataque rápido;Colocación;
+331;Épico;Ataque veloz;Colocación;Ataque poderoso;Reflejos;Saque;
+332;Épico;Ataque veloz;Bloqueo;Recepción;Saque;;
+333;Épico;Bloque preciso;Ataque poderoso;Recuperación;Ataque rápido;;
+334;Épico;Bloque preciso;Técnica ofensiva;Ataque rápido;Ataque poderoso;;
+335;Épico;Recepción de asistencia;Colocación;Bloqueo;Bloqueo;;
+336;Épico;Opt. de estado;Ataque poderoso;Recuperación;Bloqueo;;
+337;Épico;Opt. de estado;Ataque poderoso;Saque;Saque;;

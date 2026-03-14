@@ -1,0 +1,126 @@
+﻿Jugador,Slot,ID,Tipo,Puntaje real,Umbral mínimo,Umbral aspiracional,Clasificación
+Osamu,4,81,Ataque veloz,6,7.8,27.3,Mala
+Osamu,5,68,Ataque veloz,5.2,7.8,27.3,Mala
+Osamu,6,81,Ataque veloz,33,39,49.14,Mala
+Kita,4,358,Recepción suprema,36,39,49.14,Mala
+Kenma,5,40,Pase preciso,6,7.8,27.3,Mala
+Kuroo,5,108,Bloque preciso,7,7.8,27.3,Mala
+Kuroo,6,114,Bloque preciso,35.1,39,49.14,Mala
+Sugawara,4,29,Saque preciso,9.1,10.4,36.4,Mala
+Sugawara,6,46,Saque preciso,48,52,65.52,Mala
+Yamamoto,6,328,Poder vibrante,50,65,81.9,Mala
+Suna,4,234,Bloque preciso,36,39,49.14,Mala
+Akagi,6,152,Recepción de asistencia,33,39,49.14,Mala
+Tsukishima,2,63,Guardia contundente,25,26,40.04,Mala
+Tsukishima,4,318,Guardia contundente,38,39,49.14,Mala
+Ojiro,6,337,Opt. de estado,49,52,65.52,Mala
+Kyotani,2,197,Poder vibrante,48,52,65.52,Mala
+Kyotani,5,327,Poder vibrante,6,10.4,36.4,Mala
+Kyotani,6,353,Incremento de poder,46,52,65.52,Mala
+Hoshiumi,1,4,Incremento de poder,39,26,47.32,Aceptable
+Hoshiumi,2,191,Poder vibrante,63.7,52,65.52,Aceptable
+Hoshiumi,3,2,Incremento de poder,22.1,16.9,40.95,Aceptable
+Hoshiumi,4,150,Poder vibrante,27.3,13,38.22,Aceptable
+Hoshiumi,5,3,Poder vibrante,27.3,16.9,40.95,Aceptable
+Hoshiumi,6,2,Poder vibrante,62.4,52,65.52,Aceptable
+Sakusa,1,28,Recepción de asistencia,33.8,19.5,35.49,Aceptable
+Sakusa,3,164,Poder vibrante,15,7.8,27.3,Aceptable
+Sakusa,5,6,Poder vibrante,31.2,19.5,35.49,Aceptable
+Sakusa,6,161,Poder vibrante,46.8,39,49.14,Aceptable
+Komori,1,30,Recepción suprema,31.2,19.5,35.49,Aceptable
+Komori,3,350,Guardia contundente,19.5,7.8,27.3,Aceptable
+Komori,4,224,Guardia contundente,39,39,49.14,Aceptable
+Komori,5,287,Guardia contundente,27,19.5,35.49,Aceptable
+Hirugami,1,5,Bloque preciso,35.1,19.5,35.49,Aceptable
+Hirugami,3,184,Bloque preciso,19.5,14.3,31.85,Aceptable
+Hirugami,4,113,Bloque preciso,47,39,49.14,Aceptable
+Hirugami,5,162,Bloque preciso,10,7.8,27.3,Aceptable
+Hirugami,6,259,Guardia contundente,46.8,39,49.14,Aceptable
+Oikawa,1,44,Saque preciso,27,19.5,42.77,Aceptable
+Oikawa,2,109,Pase preciso,65,52,65.52,Aceptable
+Oikawa,3,37,Saque preciso,42.9,26,47.32,Aceptable
+Oikawa,4,34,Pase preciso,19,10.4,36.4,Aceptable
+Oikawa,5,36,Saque preciso,15.6,10.4,36.4,Aceptable
+Iwaizumi,1,35,Opt. de estado,48.1,32.5,59.15,Aceptable
+Iwaizumi,2,32,Poder vibrante,69,65,81.9,Aceptable
+Iwaizumi,3,18,Poder vibrante,28,13,45.5,Aceptable
+Iwaizumi,4,70,Poder vibrante,47,39,63.7,Aceptable
+Iwaizumi,5,1,Poder vibrante,33.8,19.5,50.05,Aceptable
+Iwaizumi,6,393,Opt. de estado,75.4,65,81.9,Aceptable
+Hinata,1,16,Ataque veloz,27.3,19.5,35.49,Aceptable
+Hinata,2,10,Ataque veloz,44.2,39,49.14,Aceptable
+Hinata,3,242,Ataque veloz,13,7.8,27.3,Aceptable
+Hinata,4,75,Sentido agudo,24.7,13,30.94,Aceptable
+Hinata,5,185,Sentido agudo,8,7.8,27.3,Aceptable
+Hinata,6,64,Ataque veloz,40.3,39,49.14,Aceptable
+Atsumu,1,146,Finta de colocador,29,19.5,35.49,Aceptable
+Atsumu,2,118,Finta de colocador,42.9,39,49.14,Aceptable
+Atsumu,3,351,Saque preciso,32.5,19.5,35.49,Aceptable
+Atsumu,4,363,Saque preciso,11.7,7.8,27.3,Aceptable
+Atsumu,5,322,Saque preciso,11.7,7.8,27.3,Aceptable
+Osamu,1,19,Sentido agudo,28.6,19.5,35.49,Aceptable
+Osamu,2,17,Sentido agudo,41.6,39,49.14,Aceptable
+Osamu,3,230,Ataque veloz,14.3,14.3,31.85,Aceptable
+Kita,1,27,Recepción de asistencia,31.2,19.5,35.49,Aceptable
+Kita,2,51,Recepción de asistencia,30,26,40.04,Aceptable
+Kita,3,427,Recepción suprema,16.9,7.8,27.3,Aceptable
+Kita,5,130,Recepción de asistencia,24.7,19.5,35.49,Aceptable
+Kita,6,145,Recepción de asistencia,39,39,49.14,Aceptable
+Kenma,1,250,Pase preciso,24.7,19.5,35.49,Aceptable
+Kenma,2,31,Pase preciso,39,39,49.14,Aceptable
+Kenma,3,392,Pase preciso,10.4,7.8,27.3,Aceptable
+Kenma,4,199,Finta de colocador,30,26,40.04,Aceptable
+Kenma,6,309,Finta de colocador,42.9,39,49.14,Aceptable
+Kuroo,1,22,Bloque preciso,29.9,19.5,35.49,Aceptable
+Kuroo,2,254,Movimiento de bloqueo,28.6,26,40.04,Aceptable
+Kuroo,3,167,Bloque preciso,9,7.8,27.3,Aceptable
+Kuroo,4,149,Movimiento de bloqueo,42.9,39,49.14,Aceptable
+Sugawara,1,45,Saque preciso,24,19.5,42.77,Aceptable
+Sugawara,2,171,Finta de colocador,52,52,65.52,Aceptable
+Sugawara,3,47,Saque preciso,34,26,47.32,Aceptable
+Sugawara,5,255,Finta de colocador,19.5,10.4,36.4,Aceptable
+Yamamoto,1,124,Potenciación de la moral,52,32.5,59.15,Aceptable
+Yamamoto,2,110,Poder vibrante,67.6,65,81.9,Aceptable
+Yamamoto,3,8,Poder vibrante,23,13,45.5,Aceptable
+Yamamoto,4,247,Potenciación de la moral,61.1,39,63.7,Aceptable
+Yamamoto,5,8,Poder vibrante,32.5,19.5,50.05,Aceptable
+Nishinoya,1,194,Recepción de asistencia,24.7,19.5,35.49,Aceptable
+Nishinoya,2,52,Recepción de asistencia,11,7.8,27.3,Aceptable
+Nishinoya,3,380,Recepción de asistencia,16.9,7.8,27.3,Aceptable
+Nishinoya,5,375,Recepción suprema,31.2,19.5,35.49,Aceptable
+Nishinoya,6,346,Recepción suprema,39,39,49.14,Aceptable
+Suna,1,122,Bloque preciso,29.9,19.5,35.49,Aceptable
+Suna,2,210,Bloque preciso,28,26,40.04,Aceptable
+Suna,3,352,Bloque preciso,16.9,14.3,31.85,Aceptable
+Suna,5,241,Ataque veloz,13,7.8,27.3,Aceptable
+Akagi,1,59,Recepción de asistencia,24,19.5,35.49,Aceptable
+Akagi,2,206,Recepción de asistencia,9,7.8,27.3,Aceptable
+Akagi,3,160,Recepción suprema,16,7.8,27.3,Aceptable
+Akagi,5,323,Recepción de asistencia,28.6,19.5,35.49,Aceptable
+Tsukishima,1,26,Movimiento de bloqueo,33.8,19.5,35.49,Aceptable
+Tsukishima,3,260,Movimiento de bloqueo,18.2,14.3,31.85,Aceptable
+Tsukishima,5,257,Guardia contundente,10.4,7.8,27.3,Aceptable
+Tsukishima,6,201,Guardia contundente,40.3,39,49.14,Aceptable
+Tanaka,1,11,Poder vibrante,42.9,32.5,59.15,Aceptable
+Tanaka,2,33,Poder vibrante,66,65,81.9,Aceptable
+Tanaka,3,165,Poder vibrante,22,13,45.5,Aceptable
+Tanaka,4,12,Poder vibrante,40,39,63.7,Aceptable
+Tanaka,5,248,Opt. de estado,36.4,19.5,50.05,Aceptable
+Tanaka,6,301,Opt. de estado,66,65,81.9,Aceptable
+Ojiro,1,115,Potenciación de la moral,40.3,26,47.32,Aceptable
+Ojiro,2,104,Potenciación de la moral,55.9,52,65.52,Aceptable
+Ojiro,3,348,Opt. de estado,27,19.5,42.77,Aceptable
+Ojiro,4,251,Opt. de estado,10.4,10.4,36.4,Aceptable
+Ojiro,5,292,Opt. de estado,12,10.4,36.4,Aceptable
+Kyotani,1,49,Poder vibrante,30,26,47.32,Aceptable
+Kyotani,3,377,Incremento de poder,27.3,19.5,42.77,Aceptable
+Kyotani,4,9,Poder vibrante,13,10.4,36.4,Aceptable
+Sakusa,2,192,Poder vibrante,52,39,49.14,Buena
+Sakusa,4,135,Recepción de asistencia,49.4,39,49.14,Buena
+Komori,2,239,Recepción suprema,49.4,39,49.14,Buena
+Komori,6,258,Guardia contundente,50.7,39,49.14,Buena
+Hirugami,2,119,Guardia contundente,40.3,26,40.04,Buena
+Oikawa,6,219,Saque preciso,67.6,52,65.52,Buena
+Atsumu,6,25,Saque preciso,52,39,49.14,Buena
+Nishinoya,4,142,Recepción de asistencia,52,39,49.14,Buena
+Akagi,4,369,Recepción suprema,54.6,39,49.14,Buena

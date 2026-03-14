@@ -1,0 +1,320 @@
+{
+    "Akagi": [
+        [
+            "Recepción",
+            "Reflejos",
+            "Espíritu",
+            "Técnica defensiva",
+            "Colocación"
+        ],
+        [
+            3,
+            3,
+            2,
+            1,
+            1
+        ]
+    ],
+    "Atsumu": [
+        [
+            "Saque",
+            "Colocación",
+            "Técnica ofensiva",
+            "Percepción"
+        ],
+        [
+            3,
+            3,
+            2,
+            1
+        ]
+    ],
+    "Hinata": [
+        [
+            "Ataque rápido",
+            "Percepción",
+            "Fuerza",
+            "Reflejos",
+            "Espíritu",
+            "Técnica ofensiva"
+        ],
+        [
+            3,
+            2,
+            2,
+            1,
+            1,
+            1
+        ]
+    ],
+    "Hirugami": [
+        [
+            "Bloqueo",
+            "Reflejos",
+            "Técnica defensiva",
+            "Espíritu",
+            "Percepción"
+        ],
+        [
+            3,
+            3,
+            2,
+            1,
+            1
+        ]
+    ],
+    "Hoshiumi": [
+        [
+            "Ataque poderoso",
+            "Percepción",
+            "Fuerza",
+            "Técnica ofensiva",
+            "Recepción"
+        ],
+        [
+            4,
+            3,
+            3,
+            2,
+            1
+        ]
+    ],
+    "Iwaizumi": [
+        [
+            "Ataque poderoso",
+            "Percepción",
+            "Fuerza",
+            "Técnica ofensiva"
+        ],
+        [
+            3,
+            2,
+            2,
+            1
+        ]
+    ],
+    "Kita": [
+        [
+            "Recepción",
+            "Reflejos",
+            "Técnica defensiva",
+            "Espíritu"
+        ],
+        [
+            3,
+            3,
+            2,
+            1
+        ]
+    ],
+    "Komori": [
+        [
+            "Recepción",
+            "Reflejos",
+            "Espíritu",
+            "Colocación",
+            "Técnica defensiva"
+        ],
+        [
+            3,
+            3,
+            2,
+            1,
+            1
+        ]
+    ],
+    "Kuroo": [
+        [
+            "Bloqueo",
+            "Reflejos",
+            "Técnica defensiva",
+            "Espíritu",
+            "Ataque rápido"
+        ],
+        [
+            3,
+            3,
+            2,
+            1,
+            1
+        ]
+    ],
+    "Kyotani": [
+        [
+            "Ataque poderoso",
+            "Percepción",
+            "Fuerza",
+            "Técnica ofensiva"
+        ],
+        [
+            3,
+            2,
+            2,
+            1
+        ]
+    ],
+    "Nishinoya": [
+        [
+            "Recepción",
+            "Reflejos",
+            "Espíritu",
+            "Técnica defensiva",
+            "Colocación"
+        ],
+        [
+            3,
+            2,
+            2,
+            2,
+            1
+        ]
+    ],
+    "Oikawa": [
+        [
+            "Saque",
+            "Fuerza",
+            "Colocación",
+            "Percepción",
+            "Técnica ofensiva"
+        ],
+        [
+            4,
+            3,
+            2,
+            2,
+            1
+        ]
+    ],
+    "Ojiro": [
+        [
+            "Ataque poderoso",
+            "Percepción",
+            "Fuerza",
+            "Técnica ofensiva"
+        ],
+        [
+            3,
+            2,
+            2,
+            1
+        ]
+    ],
+    "Osamu": [
+        [
+            "Ataque rápido",
+            "Técnica ofensiva",
+            "Percepción"
+        ],
+        [
+            3,
+            2,
+            1
+        ]
+    ],
+    "Sakusa": [
+        [
+            "Ataque poderoso",
+            "Técnica ofensiva",
+            "Percepción",
+            "Fuerza",
+            "Reflejos"
+        ],
+        [
+            3,
+            2,
+            2,
+            2,
+            1
+        ]
+    ],
+    "Sugawara": [
+        [
+            "Saque",
+            "Colocación",
+            "Percepción",
+            "Técnica ofensiva"
+        ],
+        [
+            4,
+            3,
+            2,
+            1
+        ]
+    ],
+    "Suna": [
+        [
+            "Bloqueo",
+            "Ataque rápido",
+            "Reflejos",
+            "Espíritu",
+            "Técnica defensiva",
+            "Técnica ofensiva"
+        ],
+        [
+            3,
+            2,
+            2,
+            1,
+            1,
+            1
+        ]
+    ],
+    "Tanaka": [
+        [
+            "Ataque poderoso",
+            "Percepción",
+            "Fuerza",
+            "Técnica ofensiva"
+        ],
+        [
+            3,
+            2,
+            2,
+            1
+        ]
+    ],
+    "Tsukishima": [
+        [
+            "Bloqueo",
+            "Reflejos",
+            "Técnica defensiva",
+            "Espíritu"
+        ],
+        [
+            3,
+            2,
+            1,
+            1
+        ]
+    ],
+    "Yamamoto": [
+        [
+            "Ataque poderoso",
+            "Percepción",
+            "Fuerza",
+            "Recepción",
+            "Técnica ofensiva"
+        ],
+        [
+            3,
+            2,
+            2,
+            1,
+            1
+        ]
+    ],
+    "Kenma": [
+        [
+            "Colocación",
+            "Técnica ofensiva",
+            "Reflejos",
+            "Espíritu"
+        ],
+        [
+            3,
+            2,
+            1,
+            1
+        ]
+    ]
+}

@@ -1,0 +1,108 @@
+{	Fortmat	Karasuno	Nekoma	Total			Nekoma			
+"    ""Akagi"": ["	Akagi	0	0	0			Saque preciso			
+"        ""Recepción de asistencia"","	Recepción de asistencia	0	1	0			Poder vibrante			
+"        ""Recepción suprema"""	Recepción suprema	1	0	0			Ataque veloz			
+    ],	No	0	0	0			Bloque preciso			
+"    ""Atsumu"": ["	Atsumu	0	0	0			Recepción de asistencia			
+"        ""Saque preciso"","	Saque preciso	0	1	0						
+"        ""Pase preciso"","	Pase preciso	1	0	0			Fukurodani			
+"        ""Finta de colocador"""	Finta de colocador	0	0	1			Potenciación de la moral			
+    ],	No	0	0	0			Opt. de percepción			
+"    ""Hinata"": ["	Hinata	0	0	0			Finta de colocador			
+"        ""Ataque veloz"","	Ataque veloz	0	1	0						
+"        ""Sentido agudo"""	Sentido agudo	1	0	0						
+    ],	No	0	0	0						
+"    ""Hirugami"": ["	Hirugami	0	0	0						
+"        ""Guardia contundente"","	Guardia contundente	0	0	1						
+"        ""Bloque preciso"","	Bloque preciso	0	1	0						
+"        ""Movimiento de bloqueo"""	Movimiento de bloqueo	1	0	0						
+    ],	No	0	0	0						
+"    ""Hoshiumi"": ["	Hoshiumi	0	0	0						
+"        ""Poder vibrante"","	Poder vibrante	0	1	0						
+"        ""Incremento de poder"","	Incremento de poder	1	0	0						
+"        ""Potenciación de la moral"","	Potenciación de la moral	0	0	1						
+"        ""Opt. de estado"""	Opt. de estado	0	0	1						
+    ],	No	0	0	0						
+"    ""Iwaizumi"": ["	Iwaizumi	0	0	0						
+"        ""Poder vibrante"","	Poder vibrante	0	1	0						
+"        ""Incremento de poder"","	Incremento de poder	1	0	0						
+"        ""Potenciación de la moral"","	Potenciación de la moral	0	0	1						
+"        ""Opt. de estado"""	Opt. de estado	0	0	1						
+    ],	No	0	0	0						
+"    ""Kita"": ["	Kita	0	0	0						
+"        ""Recepción de asistencia"","	Recepción de asistencia	0	1	0						
+"        ""Recepción suprema"""	Recepción suprema	1	0	0						
+    ],	No	0	0	0						
+"    ""Komori"": ["	Komori	0	0	0						
+"        ""Guardia contundente"","	Guardia contundente	0	0	1						
+"        ""Recepción de asistencia"","	Recepción de asistencia	0	1	0						
+"        ""Recepción suprema"""	Recepción suprema	1	0	0						
+    ],	No	0	0	0						
+"    ""Kuroo"": ["	Kuroo	0	0	0						
+"        ""Bloque preciso"","	Bloque preciso	0	1	0			Nekoma			
+"        ""Movimiento de bloqueo"""	Movimiento de bloqueo	1	0	0						
+    ],	No	0	0	0						
+"    ""Kyotani"": ["	Kyotani	0	0	0						
+"        ""Poder vibrante"","	Poder vibrante	0	1	0						
+"        ""Incremento de poder"","	Incremento de poder	1	0	0						
+"        ""Potenciación de la moral"","	Potenciación de la moral	0	0	1						
+"        ""Opt. de estado"""	Opt. de estado	0	0	1						
+    ],	No	0	0	0						
+"    ""Nishinoya"": ["	Nishinoya	0	0	0						
+"        ""Recepción de asistencia"","	Recepción de asistencia	0	1	0			Titulares: 25 Malas, 43 Aceptables, 4 Buenas	25	43	4
+"        ""Recepción suprema"""	Recepción suprema	1	0	0			Resto: 31 Malas, 34 Aceptables, 1 Buenas	31	34	1
+    ],	No	0	0	0						138
+"    ""Oikawa"": ["	Oikawa	0	0	0						
+"        ""Saque preciso"","	Saque preciso	0	1	0						
+"        ""Pase preciso"","	Pase preciso	1	0	0			Titulares: 20 Malas, 33 Aceptables, 1 Buenas	22	43	1
+"        ""Finta de colocador"""	Finta de colocador	0	0	1			Resto: 19 Malas, 34 Aceptables, 1 Buenas	19	34	1
+    ],	No	0	0	0						120
+"    ""Ojiro"": ["	Ojiro	0	0	0						
+"        ""Opt. de estado"","	Opt. de estado	0	0	1						
+"        ""Incremento de poder"","	Incremento de poder	1	0	0			Titulares: 10 Malas, 40 Aceptables, 2 Buenas	12	40	2
+"        ""Poder vibrante"","	Poder vibrante	0	1	0			Resto: 17 Malas, 39 Aceptables, 0 Buenas	21	39	0
+"        ""Potenciación de la moral"""	Potenciación de la moral	0	0	1						114
+    ],	No	0	0	0						
+"    ""Osamu"": ["	Osamu	0	0	0						
+"        ""Ataque veloz"","	Ataque veloz	0	1	0						
+"        ""Sentido agudo"""	Sentido agudo	1	0	0						
+    ],	No	0	0	0						
+"    ""Sakusa"": ["	Sakusa	0	0	0						
+"        ""Poder vibrante"","	Poder vibrante	0	1	0						
+"        ""Recepción de asistencia"","	Recepción de asistencia	0	1	0						
+"        ""Recepción suprema"""	Recepción suprema	1	0	0						
+    ],	No	0	0	0						
+"    ""Sugawara"": ["	Sugawara	0	0	0						
+"        ""Saque preciso"","	Saque preciso	0	1	0						
+"        ""Pase preciso"","	Pase preciso	1	0	0						
+"        ""Finta de colocador"""	Finta de colocador	0	0	1						
+    ],	No	0	0	0						
+"    ""Suna"": ["	Suna	0	0	0						
+"        ""Bloque preciso"","	Bloque preciso	0	1	0						
+"        ""Ataque veloz"""	Ataque veloz	0	1	0						
+    ],	No	0	0	0						
+"    ""Tanaka"": ["	Tanaka	0	0	0						
+"        ""Poder vibrante"","	Poder vibrante	0	1	0						
+"        ""Incremento de poder"","	Incremento de poder	1	0	0						
+"        ""Potenciación de la moral"","	Potenciación de la moral	0	0	1						
+"        ""Opt. de estado"""	Opt. de estado	0	0	1						
+    ],	No	0	0	0						
+"    ""Tsukishima"": ["	Tsukishima	0	0	0						
+"        ""Guardia contundente"","	Guardia contundente	0	0	1						
+"        ""Bloque preciso"","	Bloque preciso	0	1	0						
+"        ""Movimiento de bloqueo"""	Movimiento de bloqueo	1	0	0						
+    ],	No	0	0	0						
+"    ""Yamamoto"": ["	Yamamoto	0	0	0						
+"        ""Poder vibrante"","	Poder vibrante	0	1	0						
+"        ""Incremento de poder"","	Incremento de poder	1	0	0						
+"        ""Potenciación de la moral"","	Potenciación de la moral	0	0	1						
+"        ""Opt. de estado"""	Opt. de estado	0	0	1						
+    ],	No	0	0	0						
+"    ""Kenma"": ["	Kenma	0	0	0						
+"        ""Saque preciso"","	Saque preciso	0	1	0						
+"        ""Pase preciso"","	Pase preciso	1	0	0						
+"        ""Finta de colocador"""	Finta de colocador	0	0	1						
+    ]	No	0	0	0						
+}	No	0	0	0						
+	Total	20	23	19	62					
+	Por 6 slots	120	138	114	372					
