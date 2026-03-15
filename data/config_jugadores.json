@@ -2,9 +2,6 @@
     "SSR Ojiro": {
         "Equipar": true,
         "activo": true,
-        "candidatos_4": [
-            "Opt. de estado"
-        ],
         "slots_activos": [
             "1",
             "2",
@@ -38,16 +35,16 @@
                         2,
                         1
                     ]
-                }
+                },
+                "candidatos_4": [
+                    "Opt. de estado"
+                ]
             }
         }
     },
     "SSR Akagi": {
         "Equipar": true,
         "activo": true,
-        "candidatos_4": [
-            "Recepción de asistencia"
-        ],
         "slots_activos": [
             "1",
             "2",
@@ -81,16 +78,16 @@
                         1,
                         1
                     ]
-                }
+                },
+                "candidatos_4": [
+                    "Recepción de asistencia"
+                ]
             }
         }
     },
     "UR Atsumu": {
         "Equipar": true,
         "activo": true,
-        "candidatos_4": [
-            "Saque preciso"
-        ],
         "slots_activos": [
             "1",
             "2",
@@ -123,16 +120,16 @@
                         2,
                         1
                     ]
-                }
+                },
+                "candidatos_4": [
+                    "Saque preciso"
+                ]
             }
         }
     },
     "SP Hinata": {
         "Equipar": true,
         "activo": true,
-        "candidatos_4": [
-            "Ataque veloz"
-        ],
         "slots_activos": [
             "1",
             "2",
@@ -168,17 +165,16 @@
                         1,
                         1
                     ]
-                }
+                },
+                "candidatos_4": [
+                    "Ataque veloz"
+                ]
             }
         }
     },
     "UR Hirugami": {
         "Equipar": true,
         "activo": true,
-        "candidatos_4": [
-            "Guardia contundente",
-            "Bloque preciso"
-        ],
         "slots_activos": [
             "1",
             "2",
@@ -213,17 +209,17 @@
                         1,
                         1
                     ]
-                }
+                },
+                "candidatos_4": [
+                    "Guardia contundente",
+                    "Bloque preciso"
+                ]
             }
         }
     },
     "UR Hoshiumi": {
         "Equipar": true,
         "activo": true,
-        "candidatos_4": [
-            "Poder vibrante",
-            "Opt. de estado"
-        ],
         "slots_activos": [
             "1",
             "2",
@@ -259,16 +255,17 @@
                         2,
                         1
                     ]
-                }
+                },
+                "candidatos_4": [
+                    "Poder vibrante",
+                    "Opt. de estado"
+                ]
             }
         }
     },
     "SSR Iwaizumi": {
         "Equipar": true,
         "activo": true,
-        "candidatos_4": [
-            "Poder vibrante"
-        ],
         "slots_activos": [
             "1",
             "2",
@@ -302,16 +299,16 @@
                         2,
                         1
                     ]
-                }
+                },
+                "candidatos_4": [
+                    "Poder vibrante"
+                ]
             }
         }
     },
     "SP Kenma": {
         "Equipar": true,
         "activo": true,
-        "candidatos_4": [
-            "Pase preciso"
-        ],
         "slots_activos": [
             "1",
             "2",
@@ -344,16 +341,16 @@
                         1,
                         1
                     ]
-                }
+                },
+                "candidatos_4": [
+                    "Pase preciso"
+                ]
             }
         }
     },
     "SSR Kita": {
         "Equipar": true,
         "activo": true,
-        "candidatos_4": [
-            "Recepción de asistencia"
-        ],
         "slots_activos": [
             "1",
             "2",
@@ -385,16 +382,16 @@
                         2,
                         1
                     ]
-                }
+                },
+                "candidatos_4": [
+                    "Recepción de asistencia"
+                ]
             }
         }
     },
     "UR Komori": {
         "Equipar": true,
         "activo": true,
-        "candidatos_4": [
-            "Recepción de asistencia"
-        ],
         "slots_activos": [
             "1",
             "2",
@@ -429,16 +426,16 @@
                         1,
                         1
                     ]
-                }
+                },
+                "candidatos_4": [
+                    "Recepción de asistencia"
+                ]
             }
         }
     },
     "UR Kuroo": {
         "Equipar": true,
         "activo": true,
-        "candidatos_4": [
-            "Bloque preciso"
-        ],
         "slots_activos": [
             "1",
             "2",
@@ -472,16 +469,16 @@
                         1,
                         1
                     ]
-                }
+                },
+                "candidatos_4": [
+                    "Bloque preciso"
+                ]
             }
         }
     },
     "SSR Kyotani": {
         "Equipar": true,
         "activo": true,
-        "candidatos_4": [
-            "Poder vibrante"
-        ],
         "slots_activos": [
             "1",
             "2",
@@ -515,17 +512,16 @@
                         2,
                         1
                     ]
-                }
+                },
+                "candidatos_4": [
+                    "Poder vibrante"
+                ]
             }
         }
     },
     "SP Nishinoya": {
         "Equipar": true,
         "activo": true,
-        "candidatos_4": [
-            "Recepción de asistencia",
-            "Guardia contundente"
-        ],
         "slots_activos": [
             "1",
             "2",
@@ -560,16 +556,17 @@
                         2,
                         1
                     ]
-                }
+                },
+                "candidatos_4": [
+                    "Recepción de asistencia",
+                    "Guardia contundente"
+                ]
             }
         }
     },
     "UR Oikawa": {
         "Equipar": true,
         "activo": true,
-        "candidatos_4": [
-            "Saque preciso"
-        ],
         "slots_activos": [
             "1",
             "2",
@@ -604,16 +601,16 @@
                         2,
                         1
                     ]
-                }
+                },
+                "candidatos_4": [
+                    "Saque preciso"
+                ]
             }
         }
     },
     "UR Osamu": {
         "Equipar": true,
         "activo": true,
-        "candidatos_4": [
-            "Ataque veloz"
-        ],
         "slots_activos": [
             "1",
             "2",
@@ -643,17 +640,16 @@
                         2,
                         1
                     ]
-                }
+                },
+                "candidatos_4": [
+                    "Ataque veloz"
+                ]
             }
         }
     },
     "UR Sakusa": {
         "Equipar": true,
         "activo": true,
-        "candidatos_4": [
-            "Poder vibrante",
-            "Opt. de estado"
-        ],
         "slots_activos": [
             "1",
             "2",
@@ -689,17 +685,17 @@
                         2,
                         1
                     ]
-                }
+                },
+                "candidatos_4": [
+                    "Poder vibrante",
+                    "Opt. de estado"
+                ]
             }
         }
     },
     "SR Sugawara": {
         "Equipar": true,
         "activo": true,
-        "candidatos_4": [
-            "Pase preciso",
-            "Saque preciso"
-        ],
         "slots_activos": [
             "1",
             "2",
@@ -732,16 +728,17 @@
                         2,
                         1
                     ]
-                }
+                },
+                "candidatos_4": [
+                    "Pase preciso",
+                    "Saque preciso"
+                ]
             }
         }
     },
     "SSR Suna": {
         "Equipar": true,
         "activo": true,
-        "candidatos_4": [
-            "Bloque preciso"
-        ],
         "slots_activos": [
             "1",
             "2",
@@ -778,16 +775,16 @@
                         1,
                         1
                     ]
-                }
+                },
+                "candidatos_4": [
+                    "Bloque preciso"
+                ]
             }
         }
     },
     "SSR Tsukishima": {
         "Equipar": true,
         "activo": true,
-        "candidatos_4": [
-            "Bloque preciso"
-        ],
         "slots_activos": [
             "1",
             "2",
@@ -819,16 +816,16 @@
                         1,
                         1
                     ]
-                }
+                },
+                "candidatos_4": [
+                    "Bloque preciso"
+                ]
             }
         }
     },
     "SR Yamamoto": {
         "Equipar": true,
         "activo": true,
-        "candidatos_4": [
-            "Recepción de asistencia"
-        ],
         "slots_activos": [
             "1",
             "2",
@@ -865,16 +862,16 @@
                         1,
                         1
                     ]
-                }
+                },
+                "candidatos_4": [
+                    "Recepción de asistencia"
+                ]
             }
         }
     },
     "SSR Tanaka": {
         "Equipar": true,
         "activo": true,
-        "candidatos_4": [
-            "Poder vibrante"
-        ],
         "slots_activos": [
             "1",
             "2",
@@ -908,16 +905,16 @@
                         2,
                         1
                     ]
-                }
+                },
+                "candidatos_4": [
+                    "Poder vibrante"
+                ]
             }
         }
     },
     "SP Sugawara": {
         "Equipar": true,
         "activo": true,
-        "candidatos_4": [
-            "Pase preciso"
-        ],
         "slots_activos": [
             "1",
             "2",
@@ -952,16 +949,16 @@
                         1,
                         1
                     ]
-                }
+                },
+                "candidatos_4": [
+                    "Pase preciso"
+                ]
             }
         }
     },
     "SP Bokuto": {
         "Equipar": true,
         "activo": true,
-        "candidatos_4": [
-            "Potenciación de la moral"
-        ],
         "slots_activos": [
             "1",
             "2",
@@ -997,16 +994,16 @@
                         2,
                         1
                     ]
-                }
+                },
+                "candidatos_4": [
+                    "Potenciación de la moral"
+                ]
             }
         }
     },
     "SP Akaashi": {
         "Equipar": true,
         "activo": true,
-        "candidatos_4": [
-            "Pase preciso"
-        ],
         "slots_activos": [
             "1",
             "2",
@@ -1041,16 +1038,16 @@
                         2,
                         1
                     ]
-                }
+                },
+                "candidatos_4": [
+                    "Pase preciso"
+                ]
             }
         }
     },
     "SP Aone": {
         "Equipar": false,
         "activo": true,
-        "candidatos_4": [
-            "Guardia contundente"
-        ],
         "slots_activos": [
             "1",
             "2",
@@ -1085,16 +1082,16 @@
                         2,
                         1
                     ]
-                }
+                },
+                "candidatos_4": [
+                    "Guardia contundente"
+                ]
             }
         }
     },
     "SP Kuroo": {
         "Equipar": false,
         "activo": false,
-        "candidatos_4": [
-            "Guardia contundente"
-        ],
         "slots_activos": [
             "1",
             "2",
@@ -1129,16 +1126,16 @@
                         2,
                         1
                     ]
-                }
+                },
+                "candidatos_4": [
+                    "Guardia contundente"
+                ]
             }
         }
     },
     "SP Koganegawa": {
         "Equipar": false,
         "activo": false,
-        "candidatos_4": [
-            "Guardia contundente"
-        ],
         "slots_activos": [
             "1",
             "2",
@@ -1178,16 +1175,16 @@
                         2,
                         1
                     ]
-                }
+                },
+                "candidatos_4": [
+                    "Guardia contundente"
+                ]
             }
         }
     },
     "SP Oikawa": {
         "Equipar": false,
         "activo": false,
-        "candidatos_4": [
-            "Pase preciso"
-        ],
         "slots_activos": [
             "1",
             "2",
@@ -1226,17 +1223,16 @@
                         1,
                         1
                     ]
-                }
+                },
+                "candidatos_4": [
+                    "Pase preciso"
+                ]
             }
         }
     },
     "SP Iwaizumi": {
         "Equipar": false,
         "activo": false,
-        "candidatos_4": [
-            "Guardia contundente",
-            "Recepción de asistencia"
-        ],
         "slots_activos": [
             "1",
             "2",
@@ -1275,16 +1271,17 @@
                         1,
                         1
                     ]
-                }
+                },
+                "candidatos_4": [
+                    "Guardia contundente",
+                    "Recepción de asistencia"
+                ]
             }
         }
     },
     "UR Ushijima": {
         "Equipar": false,
         "activo": true,
-        "candidatos_4": [
-            "Poder vibrante"
-        ],
         "slots_activos": [
             "1",
             "2",
@@ -1320,16 +1317,16 @@
                         2,
                         1
                     ]
-                }
+                },
+                "candidatos_4": [
+                    "Poder vibrante"
+                ]
             }
         }
     },
     "UR Bokuto": {
         "Equipar": false,
         "activo": true,
-        "candidatos_4": [
-            "Potenciación de la moral"
-        ],
         "slots_activos": [
             "1",
             "2",
@@ -1365,16 +1362,16 @@
                         2,
                         1
                     ]
-                }
+                },
+                "candidatos_4": [
+                    "Potenciación de la moral"
+                ]
             }
         }
     },
     "SSR Tendo": {
         "Equipar": false,
         "activo": true,
-        "candidatos_4": [
-            "Guardia contundente"
-        ],
         "slots_activos": [
             "1",
             "2",
@@ -1411,16 +1408,16 @@
                         1,
                         1
                     ]
-                }
+                },
+                "candidatos_4": [
+                    "Guardia contundente"
+                ]
             }
         }
     },
     "SSR Akaashi": {
         "Equipar": false,
         "activo": true,
-        "candidatos_4": [
-            "Pase preciso"
-        ],
         "slots_activos": [
             "1",
             "2",
@@ -1457,16 +1454,16 @@
                         1,
                         1
                     ]
-                }
+                },
+                "candidatos_4": [
+                    "Pase preciso"
+                ]
             }
         }
     },
     "SSR Aone": {
         "Equipar": false,
         "activo": true,
-        "candidatos_4": [
-            "Bloque preciso"
-        ],
         "slots_activos": [
             "1",
             "2",
@@ -1501,16 +1498,16 @@
                         1,
                         1
                     ]
-                }
+                },
+                "candidatos_4": [
+                    "Bloque preciso"
+                ]
             }
         }
     },
     "SSR Shirabu": {
         "Equipar": false,
         "activo": true,
-        "candidatos_4": [
-            "Pase preciso"
-        ],
         "slots_activos": [
             "1",
             "2",
@@ -1547,16 +1544,16 @@
                         1,
                         1
                     ]
-                }
+                },
+                "candidatos_4": [
+                    "Pase preciso"
+                ]
             }
         }
     },
     "SSR Washio": {
         "Equipar": false,
         "activo": true,
-        "candidatos_4": [
-            "Guardia contundente"
-        ],
         "slots_activos": [
             "1",
             "2",
@@ -1591,17 +1588,16 @@
                         1,
                         1
                     ]
-                }
+                },
+                "candidatos_4": [
+                    "Guardia contundente"
+                ]
             }
         }
     },
     "SSR Terushima": {
         "Equipar": false,
         "activo": true,
-        "candidatos_4": [
-            "Poder vibrante",
-            "Opt. de estado"
-        ],
         "slots_activos": [
             "1",
             "2",
@@ -1639,14 +1635,15 @@
                         1,
                         1
                     ]
-                }
+                },
+                "candidatos_4": [
+                    "Poder vibrante",
+                    "Opt. de estado"
+                ]
             }
         }
     },
     "UR Kageyama": {
-        "candidatos_4": [
-            "Finta de colocador"
-        ],
         "slots_activos": [
             "1",
             "2",
@@ -1679,7 +1676,10 @@
                         2,
                         1
                     ]
-                }
+                },
+                "candidatos_4": [
+                    "Finta de colocador"
+                ]
             }
         }
     }
