@@ -56,15 +56,19 @@ def main():
         if jugador not in config:
             config[jugador] = {
                 "Equipar": False,
-                "tipos_recomendados": [],
-                "stats_recomendados": {"stats": [], "puntos": []},
-                "candidatos_4": [],
-                "slots_activos": [],
+                "activo": False,
+                "builds": {
+                    "Base": {
+                        "tipos_recomendados": [],
+                        "stats_recomendados": {"stats": [], "puntos": []},
+                        "candidatos_4": []
+                    }
+                },
+                "slots_activos": ["1", "2", "3", "4", "5", "6"],
                 "imagen": "default.png",
                 "escuela": "",
                 "rareza": "",
-                "rol": "",
-                "activo": False
+                "rol": ""
             }
 
         # ============================================================
@@ -143,7 +147,12 @@ def main():
         # -----------------------------
         # TIPOS RECOMENDADOS
         # -----------------------------
-        build = config[jugador].get("builds", {}).get("Base", {})
+        if "builds" not in config[jugador]:
+            config[jugador]["builds"] = {"Base": {}}
+        if "Base" not in config[jugador]["builds"]:
+            config[jugador]["builds"]["Base"] = {}
+            
+        build = config[jugador]["builds"]["Base"]
         tipos_actuales = [t for t in build.get("tipos_recomendados", []) if t in tipos]
 
         tipos_seleccionados = st.multiselect(
@@ -210,7 +219,7 @@ def main():
         # -----------------------------
         st.subheader("Configuración adicional")
 
-        candidatos_4_actuales = config[jugador].get("candidatos_4", [])
+        candidatos_4_actuales = build.get("candidatos_4", [])
         slots_activos_actuales = [str(s) for s in config[jugador].get("slots_activos", [])]
 
         candidatos_4 = st.multiselect(
@@ -230,12 +239,12 @@ def main():
         # -----------------------------
         if st.button("Guardar cambios"):
 
-            config[jugador]["tipos_recomendados"] = tipos_seleccionados
-            config[jugador]["stats_recomendados"] = {
+            config[jugador]["builds"]["Base"]["tipos_recomendados"] = tipos_seleccionados
+            config[jugador]["builds"]["Base"]["stats_recomendados"] = {
                 "stats": stats_seleccionados,
                 "puntos": puntos
             }
-            config[jugador]["candidatos_4"] = candidatos_4
+            config[jugador]["builds"]["Base"]["candidatos_4"] = candidatos_4
             config[jugador]["slots_activos"] = slots_activos
             config[jugador]["escuela"] = escuela_sel
             config[jugador]["rareza"] = rareza_sel
@@ -338,18 +347,23 @@ def main():
                 return
 
             config[nombre] = {
-                "tipos_recomendados": tipos_seleccionados,
-                "stats_recomendados": {
-                    "stats": stats_seleccionados,
-                    "puntos": puntos
+                "Equipar": False,
+                "activo": activo_sel,
+                "builds": {
+                    "Base": {
+                        "tipos_recomendados": tipos_seleccionados,
+                        "stats_recomendados": {
+                            "stats": stats_seleccionados,
+                            "puntos": puntos
+                        },
+                        "candidatos_4": candidatos_4
+                    }
                 },
-                "candidatos_4": candidatos_4,
                 "slots_activos": slots_activos,
                 "imagen": nombre_archivo_nuevo or "default.png",
                 "escuela": escuela_sel,
                 "rareza": rareza_sel,
-                "rol": rol_sel,
-                "activo": activo_sel
+                "rol": rol_sel
             }
 
 

@@ -2,13 +2,13 @@ from os import error
 import streamlit as st
 import pandas as pd
 
+import config
 from optimizer import (
     puntuar_pieza,
     jugadores_que_usan_tipo,
     puntajes_por_jugador_para_pieza,
     mainstat_por_defecto,
-    formatear_stat,
-    calcular_reservas_por_jugador,      
+    formatear_stat,    
     clasificar_potencial
 )
 
@@ -71,7 +71,7 @@ def get_available_tm(idx,stat, used_stats=None):
 # 1. MODAL OFICIAL (VERSIÓN REFACTORIZADA Y COMPACTA)
 # ============================================================
 @st.dialog("📥 Confirmación de inserción")
-def modal_confirmacion(pieza, detalle_global, detalle_por_jugador, slot, inventarios):
+def modal_confirmacion(pieza, detalle_global, detalle_por_jugador, slot, inventarios, config):
 
     tipo = pieza["Tipo"]
 
@@ -146,6 +146,8 @@ def modal_confirmacion(pieza, detalle_global, detalle_por_jugador, slot, inventa
         if st.button("Insertar"):
             inventory_service.add_piece(slot, pieza, uid)
             st.session_state["modal_result"] = "confirmar"
+            st.session_state["reservas_activas"] = inventory_service.get_active_reservations(inventarios, config, st.session_state)
+            
             st.rerun()
 
     with col2:
@@ -182,36 +184,12 @@ def main():
 
     config = st.session_state["config_jugadores"]
 
-
-
-    stats_recomendados = {}
-
-    for jugador, builds in config.items():
-        stats = builds["builds"]["Base"]["stats_recomendados"]["stats"]
-        puntos = builds["builds"]["Base"]["stats_recomendados"]["puntos"]
-
-        # reconstruir diccionario requerido por el optimizador
-        puntos_dict = dict(zip(stats, puntos))
-    
-        stats_recomendados[jugador] = {
-            "stats": stats,
-            "puntos": puntos_dict
-        }
-
-    tipos_recomendados = {
-        jugador: config[jugador]["builds"]["Base"]["tipos_recomendados"]
-        for jugador in config
-    }
-
     tipos = st.session_state["tipos"]
     stats = st.session_state["stats"]
     calidades = ["", "Épico", "Legendario"]
     
-    reservas_activas = inventory_service.get_active_reservations(
-        inventarios, config, st.session_state
-    )
-
-    st.session_state["reservas_activas"] = reservas_activas
+    if "reservas_activas" not in st.session_state:
+        st.session_state["reservas_activas"] = inventory_service.get_active_reservations(inventarios, config, st.session_state)
     
     piezas_equipadas = st.session_state["equipamiento"]
     lista_jugadores_prioridad = st.session_state.get("orden_jugadores", [])
@@ -240,7 +218,7 @@ def main():
             piezas, 
             slot=slot, 
             equipamiento=piezas_equipadas,
-            reservations=reservas_activas,
+            reservations=st.session_state["reservas_activas"],
             config=config,
             inventarios=inventarios
         )
@@ -500,12 +478,14 @@ def main():
                 }
                 inventory_service.update_piece(slot, pieza_id_a_editar, updated_data, uid)
                 st.success(f"Pieza {pieza_id_a_editar} actualizada correctamente.")
+                st.session_state["reservas_activas"] = inventory_service.get_active_reservations(inventarios, config, st.session_state)
                 st.rerun()
     
         elif borrar:
             inventory_service.delete_piece(slot, pieza_id_a_editar, uid)
             st.session_state["pieza_seleccionada"] = None
             st.success(f"Pieza {pieza_id_a_editar} eliminada del inventario.")
+            st.session_state["reservas_activas"] = inventory_service.get_active_reservations(inventarios, config, st.session_state)
             st.rerun()
     
         elif cancelar:
@@ -676,12 +656,13 @@ def main():
                     "Substat3": sub3, "Tipo_Mejora_Sub3": tm3,
                     "Substat4": sub4, "Tipo_Mejora_Sub4": tm4
                 }
+                
                 resultado = clasificar_potencial(pieza_temp, slot, st.session_state["reservas_activas"], config, inventarios)
                 st.session_state["pieza_por_confirmar"] = pieza_temp
                 st.session_state["confirm_detalle_global"] = {"motivo": resultado["motivo"], "estado": resultado["estado"]}
                 st.session_state["confirm_detalle_por_jugador"] = resultado["evaluaciones"]
                 modal_confirmacion(pieza_temp, st.session_state["confirm_detalle_global"], 
-                                   st.session_state["confirm_detalle_por_jugador"], slot, inventarios)
+                                   st.session_state["confirm_detalle_por_jugador"], slot, inventarios, config)
 
     # ============================================================
     # 5. Potenciales desechables (EXPANDER)
@@ -689,7 +670,7 @@ def main():
     with st.expander("🗑️ Potenciales desechables", expanded=False):
     
         desechables = inventory_service.get_disposable_pieces(
-            slot, inventarios, config, piezas_equipadas, reservas_activas
+            slot, inventarios, config, piezas_equipadas, st.session_state["reservas_activas"]
         )
     
         if len(desechables) > 0:

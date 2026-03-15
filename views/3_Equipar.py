@@ -6,7 +6,8 @@ from data_manager import (
     equipar_pieza,
     resetear_equipamiento,
     load_all_into_session,
-    save_orden_jugadores
+    save_orden_jugadores,
+    inventory_service
 )
 
 def get_text_color(calidad):
@@ -78,8 +79,6 @@ def main():
         lista_jugadores=jugadores,
         inventarios=inventarios,
         config_jugadores=config,
-        stats_recomendados=stats_recomendados,
-        tipos_recomendados=tipos_recomendados,
         piezas_equipadas=piezas_equipadas
     )
     st.session_state["resultados_optimizador"] = resultados
@@ -241,6 +240,7 @@ def main():
                                 equipar_pieza(jugador, c["Slot"], c["Nuevo ID"])
                         st.success(f"Equipamiento de {jugador} actualizado.")
                         load_all_into_session()
+                        st.session_state["reservas_activas"] = inventory_service.get_active_reservations(inventarios, config, st.session_state)
                         st.rerun()
             else:
                 st.success("✨ El equipamiento actual es el óptimo.")

@@ -308,20 +308,6 @@ def main():
     
     st.subheader("🏐 ¿Con qué equipo deberías entrenar?")
     
-    reservas = calcular_reservas_por_jugador(
-        inventarios=inventarios,
-        config_jugadores=config,
-        stats_recomendados=stats_recomendados,
-        tipos_recomendados=tipos_recomendados,
-        piezas_equipadas=piezas_equipadas,
-        lista_jugadores_prioridad=orden_prioridad,
-        rareza_lista=rareza,
-        modo="equipar"
-    )
-
-    # Titulares = primeros 11
-    #titulares = set(orden_prioridad[:11])
-    
     filas = []
     
     for equipo, tipos_equipo in equipos_entrenamiento.items():

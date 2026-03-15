@@ -189,7 +189,7 @@ def main():
     # 5. Configuración adicional
     st.subheader("Configuración adicional")
     
-    candidatos_4_actuales = [t for t in config[jugador].get("candidatos_4", []) if t in tipos]
+    candidatos_4_actuales = [t for t in build_base.get("candidatos_4", []) if t in tipos]
     candidatos_4 = st.multiselect("Tipos candidatos para set de 4 piezas", tipos, default=candidatos_4_actuales)
     
     #slots_activos_actuales = [str(s) for s in config[jugador].get("slots_activos", [])]
@@ -204,7 +204,7 @@ def main():
         if st.button("💾 Guardar cambios"):
             config[jugador]["builds"]["Base"]["tipos_recomendados"] = tipos_seleccionados
             config[jugador]["builds"]["Base"]["stats_recomendados"] = {"stats": stats_seleccionados, "puntos": puntos}
-            config[jugador]["candidatos_4"] = candidatos_4
+            config[jugador]["builds"]["Base"]["candidatos_4"] = candidatos_4
     
             player_service.save_overrides(config, get_current_user_id())
     

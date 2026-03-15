@@ -49,7 +49,7 @@ class PlayerService:
         base_config = self.repo.storage.load("config_jugadores", {})
         overrides = {}
         
-        keys_to_track = ["Equipar", "builds", "candidatos_4"]
+        keys_to_track = ["Equipar", "builds"]
         
         for j, merged_conf in config.items():
             if j in base_config:

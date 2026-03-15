@@ -673,8 +673,6 @@ def asignar_todos_los_jugadores(
     lista_jugadores,
     inventarios,
     config_jugadores,
-    stats_recomendados,
-    tipos_recomendados,
     piezas_equipadas
 ):
     """
@@ -686,13 +684,15 @@ def asignar_todos_los_jugadores(
 
     for jugador in lista_jugadores:
 
-        candidatos_4 = config_jugadores[jugador]["candidatos_4"]
-        slots_activos = config_jugadores[jugador]["slots_activos"]
+        # Obtener configuración de la build Base
+        build_base = config_jugadores[jugador].get("builds", {}).get("Base", {})
+        candidatos_4 = build_base.get("candidatos_4", [])
+        slots_activos = config_jugadores[jugador].get("slots_activos", ["1", "2", "3", "4", "5", "6"])
 
-        stats_rec = stats_recomendados[jugador]["stats"]
-        puntos_rec = stats_recomendados[jugador]["puntos"]
+        stats_rec = build_base.get("stats_recomendados", {}).get("stats", [])
+        puntos_rec = build_base.get("stats_recomendados", {}).get("puntos", [])
 
-        tipos_disp = tipos_recomendados[jugador]
+        tipos_disp = build_base.get("tipos_recomendados", [])
 
         # Bloqueamos lo que tienen los de arriba ACTUALMENTE
         piezas_bloqueadas_fijas = _construir_bloqueadas_para_jugador(
@@ -997,7 +997,6 @@ def _orden_jugadores_para_reservas(
     if len(resultado) != len(set(resultado)):
         st.error("⚠️ HAY DUPLICADOS EN EL ORDEN DE RESERVAS")
         st.write("Duplicados:", [j for j in resultado if resultado.count(j) > 1])
-
     return resultado
 
 
@@ -1036,6 +1035,7 @@ def calcular_reservas_por_jugador(
         "puntaje": float # 
     }
     """
+
     reservas = {}
     reservadas_global = set()
 
@@ -1090,16 +1090,16 @@ def calcular_reservas_por_jugador(
     
                 # Clave primaria real: (slot, ID)
                 reservadas_global.add((str(slot_str), str(pieza["ID"])))
-
+                
     # 4. Reservas adicionales
     for jugador in jugadores_orden:
 
         cfg = config_jugadores[jugador]
 
-        tipos_j = cfg.get("tipos_recomendados", [])
+        tipos_j = cfg["builds"]["Base"]["tipos_recomendados"]
         slots_activos = [str(s) for s in cfg.get("slots_activos", [])]
 
-        stats_cfg = cfg.get("stats_recomendados", {})
+        stats_cfg = cfg["builds"]["Base"]["stats_recomendados"]
         stats_rec = stats_cfg.get("stats", [])
         puntos_rec = stats_cfg.get("puntos", [])
 
@@ -1285,7 +1285,7 @@ def clasificar_potencial(pieza, slot_str, reservas, config_jugadores, inventario
             continue
 
         jugadores_validos.append(jugador)
-
+    
     # ============================================================
     # 2) Si ningún jugador usa este tipo → sin uso
     # ============================================================
@@ -1309,7 +1309,7 @@ def clasificar_potencial(pieza, slot_str, reservas, config_jugadores, inventario
                     "puntaje": info["puntaje"],
                     "calidad": info["calidad"]
                 })
-
+    
     # ============================================================
     # 4) Si hay jugadores válidos pero NO hay reservas → rellena hueco
     # ============================================================
